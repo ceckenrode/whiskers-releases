@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Whiskers Updates</title>
+    <link>https://github.com/ceckenrode/whiskers-releases</link>
+    <description>Updates for Whiskers</description>
+    <language>en</language>
+
+    <item>
+      <title>Whiskers 0.1.0</title>
+      <pubDate>Sun, 04 Jan 2026 18:22:25 +0000</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <enclosure
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.1.0/wskrs.zip"
+        length="2778216"
+        type="application/zip"
+        sparkle:edSignature="sparkle:edSignature="GkkE910C6IQzambILLKoEEbRIS6R/Te8gOmvz/WvcXLedQBR/kFiciaT6kuDqOy06qtKwNTW3MwZKOKq07O3Aw==" length="2778216""
+      />
+    </item>
+  </channel>
+</rss>
