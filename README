@@ -1,0 +1,48 @@
+# Whiskers
+
+**Local-only voice dictation for macOS** — Hold a key, speak, and your words appear wherever you're typing.
+
+## Download
+
+📦 **[Download Latest Release](../../releases/latest)**
+
+## Requirements
+
+- macOS 14 (Sonoma) or later
+- Apple Silicon Mac (M1/M2/M3/M4/M5)
+
+## Installation
+
+1. Download `wskrs.zip` from the [Releases](../../releases) page
+2. Extract the zip file
+3. Drag `wskrs.app` to your **Applications** folder
+4. **First launch**: Right-click the app → select "Open" → click "Open" in the dialog
+   > This is required because Whiskers is not yet signed with an Apple Developer ID
+
+## How It Works
+
+1. **Hold Fn** to start recording
+2. **Speak** your text
+3. **Release** to transcribe and paste into current application
+
+Whiskers runs entirely on your Mac — no internet connection required, no data leaves your device.
+
+## Features
+
+- 🎤 **Local transcription** via Parakeet V2 (CoreML)
+- ⚡ **Fast** — ~100ms processing for 10 seconds of audio
+- 🔒 **Private** — All processing happens on-device
+- 🎯 **Simple** — Hold to record, release to paste
+- ✨ **AI Enhancemed** - Optionally bring your own API key to enable tool calls such as transcript cleanup
+
+## Updates
+
+Whiskers checks for updates automatically. When a new version is available, you'll be prompted to install it.
+
+## Feedback & Issues
+
+Report issues at [github.com/ceckenrode/wskrs/issues](https://github.com/ceckenrode/whiskers-releases/issues)
+
+---
+
+*Built with ❤️ for people who think faster than they type*
