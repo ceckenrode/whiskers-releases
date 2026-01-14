@@ -7,16 +7,16 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.12</title>
-      <pubDate>Wed, 14 Jan 2026 06:11:37 +0000</pubDate>
-      <sparkle:version>361</sparkle:version>
-      <sparkle:shortVersionString>0.8.12</sparkle:shortVersionString>
+      <title>Whiskers 0.8.15</title>
+      <pubDate>Wed, 14 Jan 2026 07:01:19 +0000</pubDate>
+      <sparkle:version>367</sparkle:version>
+      <sparkle:shortVersionString>0.8.15</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.12/wskrs.zip"
-        length="3466457"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.15/wskrs.zip"
+        length="3466467"
         type="application/zip"
-        sparkle:edSignature="WHJc3gWFEbdIXTmbFETZ8TULAD2T3LtKqK3lRf52wpx7xW6SwIJh6hoMxgDvHM4j/yZQaOe3ZWai4D7Zi0f6Ag=="
+        sparkle:edSignature="a+z6FS+9ek4g+JvW0J9JV5pcNdRK86iWb03F5OlWMUQCRnJpHRwwuz6513JbzE4mCOYVZufYDroCx/oMsEZ0Ag=="
       />
     </item>
   </channel>
