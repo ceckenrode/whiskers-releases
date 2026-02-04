@@ -7,28 +7,32 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.20</title>
+      <title>Whiskers 0.8.21</title>
       <description><![CDATA[
-<h3>What's New in 0.8.20</h3>
-<p>### Custom Vocabulary</p>
-<li>Add custom words and phrases to improve transcription accuracy for specialized terminology</li>
-<li>Import and export vocabulary lists via CSV for easy backup and sharing</li>
-<li>Vocabulary is now applied during AI-powered enhancement for better results</li>
-<p>### Dictionary & Settings</p>
-<li>New unified Dictionary settings view for managing vocabulary and text replacements</li>
-<li>Import/export text replacements via CSV</li>
-<p>### Improvements</p>
-<li>Cleaner settings organization with vocabulary integrated into the sidebar</li>
+<h3>What's New in 0.8.21</h3>
+<p>### API Keys</p>
+<li>New dedicated API Keys page for adding and managing keys across providers</li>
+<li>Validate keys as you save them, with clearer guidance when a service is unavailable</li>
+<p>### Models & Providers</p>
+<li>Improved cloud provider selection so the active model and provider stay in sync</li>
+<li>Clearer “Active” state in model/provider lists</li>
+<p>### Accessibility & UI</p>
+<li>Better VoiceOver coverage across key flows, plus improved Reduce Motion behavior</li>
+<li>Refreshed settings UI with a more consistent “glass” look and cleaner layout</li>
+<p>### Bug Fixes</p>
+<li>Fixed issues that could prevent pasting in some cases</li>
+<li>Preserved dictionary/snippet whitespace more reliably</li>
+<li>Reduced the chance of recording sessions getting stuck on hotkeys or audio state</li>
       ]]></description>
-      <pubDate>Wed, 28 Jan 2026 08:37:23 +0000</pubDate>
-      <sparkle:version>412</sparkle:version>
-      <sparkle:shortVersionString>0.8.20</sparkle:shortVersionString>
+      <pubDate>Wed, 04 Feb 2026 03:05:59 +0000</pubDate>
+      <sparkle:version>445</sparkle:version>
+      <sparkle:shortVersionString>0.8.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.20/Whiskers.zip"
-        length="10688439"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.21/Whiskers.zip"
+        length="12193031"
         type="application/zip"
-        sparkle:edSignature="wKTEl8BxUwSEWfGFseSVV8jiPlqz3DqlYkCudY/h0NoW6PvlLEjoxAPe3NiEkRQpJG97gniYPdk4C3yNOGP1BQ=="
+        sparkle:edSignature="1G9mNSh9xGmZLytoRDbI0fgkDGGdmUfLYBN+HKvb3rcyzq4CP2PLALfSanAzBrYaNve/SLQVUUkrZC844tU0BQ=="
       />
     </item>
   </channel>
