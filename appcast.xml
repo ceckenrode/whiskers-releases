@@ -7,23 +7,27 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.22</title>
+      <title>Whiskers 0.8.23</title>
       <description><![CDATA[
-<h3>What's New in 0.8.22</h3>
-<p>### AI Enhancement</p>
-<li>Improved the AI enhancement settings layout with clearer status and prompt selection</li>
-<p>### Improvements</p>
-<li>Better accessibility for collapsible sections in the AI enhancement settings</li>
+<h3>What's New in 0.8.23</h3>
+<p>### Bulk Transcription</p>
+<li>Redesigned the Bulk Transcription page with drag-and-drop upload and expandable file cards</li>
+<li>Choose from downloaded on-device models and per-provider cloud model options</li>
+<li>Play back audio with a waveform scrubber, and copy or export transcripts to TXT or SRT</li>
+<li>Apply AI Enhancement prompts to bulk transcripts (when enabled), with prompt management built in</li>
+<li>Bulk transcription results now persist across navigation and app restarts</li>
+<p>### Bug Fixes</p>
+<li>Fixed the start cue playing through the wrong output device</li>
       ]]></description>
-      <pubDate>Wed, 04 Feb 2026 05:46:41 +0000</pubDate>
-      <sparkle:version>448</sparkle:version>
-      <sparkle:shortVersionString>0.8.22</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Feb 2026 08:37:35 +0000</pubDate>
+      <sparkle:version>480</sparkle:version>
+      <sparkle:shortVersionString>0.8.23</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.22/Whiskers.zip"
-        length="12389177"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.23/Whiskers.zip"
+        length="12681312"
         type="application/zip"
-        sparkle:edSignature="IEQMYOD0gggTozqWPqDgRRI3yhnAfIgT2tI6MBAy0ADycbu0C0vs4zc1o1/pw/tpwMCGeDl6uTXtENho7HrfCA=="
+        sparkle:edSignature="hoiN/KieKtGjMZJdXSvdsEoDo+yiljj0K54du5A8SjHjojGEyxgTc5owfcmZRV/f7v7gKQTx8PDBBbz+tSDEAw=="
       />
     </item>
   </channel>
