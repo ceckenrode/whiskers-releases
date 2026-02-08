@@ -7,27 +7,34 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.23</title>
+      <title>Whiskers 0.8.24</title>
       <description><![CDATA[
-<h3>What's New in 0.8.23</h3>
-<p>### Bulk Transcription</p>
-<li>Redesigned the Bulk Transcription page with drag-and-drop upload and expandable file cards</li>
-<li>Choose from downloaded on-device models and per-provider cloud model options</li>
-<li>Play back audio with a waveform scrubber, and copy or export transcripts to TXT or SRT</li>
-<li>Apply AI Enhancement prompts to bulk transcripts (when enabled), with prompt management built in</li>
-<li>Bulk transcription results now persist across navigation and app restarts</li>
-<p>### Bug Fixes</p>
-<li>Fixed the start cue playing through the wrong output device</li>
+<h3>What's New in 0.8.24</h3>
+<p>### More Cloud Transcription Choices</p>
+<li>Added OpenAI as a first-class cloud transcription provider with automatic model discovery, smarter failover, and safer startup behavior.</li>
+<li>Introduced Google Gemini cloud transcription plus an auto-cleanup prompt so transcripts come back normalized and readable.</li>
+<li>Refreshed the transcription model menus: providers are grouped, cloud models are easy to pick, and choices persist reliably.</li>
+<p>### Bulk Transcription Polish</p>
+<li>File cards now surface transcript previews, tighter prompts, and clearer modals so you can scan results faster.</li>
+<li>Prompt chips and layout tweaks make bulk runs feel lighter and more consistent.</li>
+<p>### Settings & Menu Enhancements</p>
+<li>Settings pages now share unified headers, cards, and spacing for a cleaner, predictable experience.</li>
+<li>AI Enhancement settings keep prompt drafts when you switch providers and use a dedicated editor session for stability.</li>
+<li>Groq is now the default AI enhancement provider out of the box.</li>
+<li>New menu bar options: toggle “Start Whiskers at Login” and choose cloud models directly from the status item, with a subtler icon tint.</li>
+<p>### Reliability Fixes</p>
+<li>AI Enhancement guardrails normalize model outputs and handle mixed content arrays to prevent malformed results.</li>
+<li>Cloud transcription registry and fallback handling are sturdier, reducing startup and routing hiccups.</li>
       ]]></description>
-      <pubDate>Thu, 05 Feb 2026 08:37:35 +0000</pubDate>
-      <sparkle:version>480</sparkle:version>
-      <sparkle:shortVersionString>0.8.23</sparkle:shortVersionString>
+      <pubDate>Sun, 08 Feb 2026 05:53:06 +0000</pubDate>
+      <sparkle:version>504</sparkle:version>
+      <sparkle:shortVersionString>0.8.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.23/Whiskers.zip"
-        length="12681312"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.24/Whiskers.zip"
+        length="12809200"
         type="application/zip"
-        sparkle:edSignature="hoiN/KieKtGjMZJdXSvdsEoDo+yiljj0K54du5A8SjHjojGEyxgTc5owfcmZRV/f7v7gKQTx8PDBBbz+tSDEAw=="
+        sparkle:edSignature="vY5ZlS8y6N8IZM1oV+lhbahIYPFANPtwxH0ROiqKweVuZ2yG4/JOeNrslU7kClSxd3G1g9nPd9LPLAEDtBnhAA=="
       />
     </item>
   </channel>
