@@ -7,34 +7,31 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.24</title>
+      <title>Whiskers 0.8.25</title>
       <description><![CDATA[
-<h3>What's New in 0.8.24</h3>
-<p>### More Cloud Transcription Choices</p>
-<li>Added OpenAI as a first-class cloud transcription provider with automatic model discovery, smarter failover, and safer startup behavior.</li>
-<li>Introduced Google Gemini cloud transcription plus an auto-cleanup prompt so transcripts come back normalized and readable.</li>
-<li>Refreshed the transcription model menus: providers are grouped, cloud models are easy to pick, and choices persist reliably.</li>
-<p>### Bulk Transcription Polish</p>
-<li>File cards now surface transcript previews, tighter prompts, and clearer modals so you can scan results faster.</li>
-<li>Prompt chips and layout tweaks make bulk runs feel lighter and more consistent.</li>
-<p>### Settings & Menu Enhancements</p>
-<li>Settings pages now share unified headers, cards, and spacing for a cleaner, predictable experience.</li>
-<li>AI Enhancement settings keep prompt drafts when you switch providers and use a dedicated editor session for stability.</li>
-<li>Groq is now the default AI enhancement provider out of the box.</li>
-<li>New menu bar options: toggle “Start Whiskers at Login” and choose cloud models directly from the status item, with a subtler icon tint.</li>
-<p>### Reliability Fixes</p>
-<li>AI Enhancement guardrails normalize model outputs and handle mixed content arrays to prevent malformed results.</li>
-<li>Cloud transcription registry and fallback handling are sturdier, reducing startup and routing hiccups.</li>
+<h3>What's New in 0.8.25</h3>
+<p>### A Clearer, Guided Setup Flow</p>
+<li>New onboarding walks you through microphone access, Accessibility access, and choosing a transcription model.</li>
+<li>A “Try it” step helps confirm everything is working before you start using Whiskers day to day.</li>
+<li>You can restart onboarding from Settings if you want to re-run setup later.</li>
+<p>### Better Setup Feedback in Settings</p>
+<li>Settings now show clear “needs attention” badges so you can see what is still missing at a glance.</li>
+<li>Permissions and Models pages include more direct recovery actions and clearer guidance when something is blocked.</li>
+<p>### Helpful Prompts When Something Is Missing</p>
+<li>When you try to transcribe without required setup, Whiskers shows lightweight in-app prompts with one-click links to the right Settings page.</li>
+<li>Bulk Transcription now guides you to select a model before adding files.</li>
+<p>### Fixes and Polish</p>
+<li>Improved global hotkey handling for more consistent push-to-talk and shortcut behavior.</li>
       ]]></description>
-      <pubDate>Sun, 08 Feb 2026 05:53:06 +0000</pubDate>
-      <sparkle:version>504</sparkle:version>
-      <sparkle:shortVersionString>0.8.24</sparkle:shortVersionString>
+      <pubDate>Wed, 11 Feb 2026 00:21:50 +0000</pubDate>
+      <sparkle:version>530</sparkle:version>
+      <sparkle:shortVersionString>0.8.25</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.24/Whiskers.zip"
-        length="12809200"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.25/Whiskers.zip"
+        length="12942336"
         type="application/zip"
-        sparkle:edSignature="vY5ZlS8y6N8IZM1oV+lhbahIYPFANPtwxH0ROiqKweVuZ2yG4/JOeNrslU7kClSxd3G1g9nPd9LPLAEDtBnhAA=="
+        sparkle:edSignature="Y2jo97hwy0N5hUFjTCHtl1n5+GqVu2CBqxFAh3U1bpQQMm4fNJcWtLETeLZRYS9yMgZjf6LzL0HcqOUMXAYuCw=="
       />
     </item>
   </channel>
