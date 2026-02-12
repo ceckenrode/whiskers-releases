@@ -7,31 +7,29 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.25</title>
+      <title>Whiskers 0.8.26</title>
       <description><![CDATA[
-<h3>What's New in 0.8.25</h3>
-<p>### A Clearer, Guided Setup Flow</p>
-<li>New onboarding walks you through microphone access, Accessibility access, and choosing a transcription model.</li>
-<li>A “Try it” step helps confirm everything is working before you start using Whiskers day to day.</li>
-<li>You can restart onboarding from Settings if you want to re-run setup later.</li>
-<p>### Better Setup Feedback in Settings</p>
-<li>Settings now show clear “needs attention” badges so you can see what is still missing at a glance.</li>
-<li>Permissions and Models pages include more direct recovery actions and clearer guidance when something is blocked.</li>
-<p>### Helpful Prompts When Something Is Missing</p>
-<li>When you try to transcribe without required setup, Whiskers shows lightweight in-app prompts with one-click links to the right Settings page.</li>
-<li>Bulk Transcription now guides you to select a model before adding files.</li>
-<p>### Fixes and Polish</p>
-<li>Improved global hotkey handling for more consistent push-to-talk and shortcut behavior.</li>
+<h3>What's New in 0.8.26</h3>
+<p>### Onboarding Experience Refresh</p>
+<li>Added a cleaner, more guided onboarding layout with clearer step progress and improved visual feedback</li>
+<li>Improved microphone and Accessibility setup steps with clearer status states and better recovery actions</li>
+<li>Added a stronger "Try it" verification success state so it is obvious when setup is complete</li>
+<p>### Model Setup Clarity</p>
+<li>Improved onboarding model selection with clearer readiness, download progress, and recommended-model guidance</li>
+<li>Added explicit loading and setup-required messaging so Bulk Transcription waits for model state instead of showing premature missing-model prompts</li>
+<p>### Reliability Improvements</p>
+<li>Improved transcript loading reliability when macOS temporarily limits secure storage access (for example around wake/lock transitions)</li>
+<li>Added automatic retry behavior for transient secure-storage failures so history refreshes once the system settles</li>
       ]]></description>
-      <pubDate>Wed, 11 Feb 2026 00:21:50 +0000</pubDate>
-      <sparkle:version>530</sparkle:version>
-      <sparkle:shortVersionString>0.8.25</sparkle:shortVersionString>
+      <pubDate>Thu, 12 Feb 2026 22:38:10 +0000</pubDate>
+      <sparkle:version>535</sparkle:version>
+      <sparkle:shortVersionString>0.8.26</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.25/Whiskers.zip"
-        length="12942336"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.26/Whiskers.zip"
+        length="13004883"
         type="application/zip"
-        sparkle:edSignature="Y2jo97hwy0N5hUFjTCHtl1n5+GqVu2CBqxFAh3U1bpQQMm4fNJcWtLETeLZRYS9yMgZjf6LzL0HcqOUMXAYuCw=="
+        sparkle:edSignature="b5tsayhfzAWskjUGWAmstUbijAtBmEZkMS6KJChw0ePi6Zi7VIYgpYZxSDHPk22Q9KifPjte4ASfeiWnpgCmBA=="
       />
     </item>
   </channel>
