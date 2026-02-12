@@ -7,7 +7,7 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.26</title>
+      <title>Whiskers 0.8.27</title>
       <description><![CDATA[
 <h3>What's New in 0.8.26</h3>
 <p>### Onboarding Experience Refresh</p>
@@ -20,16 +20,19 @@
 <p>### Reliability Improvements</p>
 <li>Improved transcript loading reliability when macOS temporarily limits secure storage access (for example around wake/lock transitions)</li>
 <li>Added automatic retry behavior for transient secure-storage failures so history refreshes once the system settles</li>
+<h3>What's New in 0.8.27</h3>
+<p>### Bug Fixes</p>
+<li>Rounded the macOS app icon assets and added corner-transparency validation so Dock/Finder on macOS 15 renders Whiskers with the expected rounded badge instead of a square splash; if the icon still looks square after updating,  to refresh the cache.</li>
       ]]></description>
-      <pubDate>Thu, 12 Feb 2026 22:38:10 +0000</pubDate>
-      <sparkle:version>535</sparkle:version>
-      <sparkle:shortVersionString>0.8.26</sparkle:shortVersionString>
+      <pubDate>Thu, 12 Feb 2026 23:48:47 +0000</pubDate>
+      <sparkle:version>536</sparkle:version>
+      <sparkle:shortVersionString>0.8.27</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.26/Whiskers.zip"
-        length="13004883"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.27/Whiskers.zip"
+        length="12817391"
         type="application/zip"
-        sparkle:edSignature="b5tsayhfzAWskjUGWAmstUbijAtBmEZkMS6KJChw0ePi6Zi7VIYgpYZxSDHPk22Q9KifPjte4ASfeiWnpgCmBA=="
+        sparkle:edSignature="cCy9lJpL1qZOsh8SLEF+xtnPIfT4z/zwV/kJaqdl01zrD2thmtPLPCUtYk8PtcBIkvoj0q1ZFMpMeRousyw+BA=="
       />
     </item>
   </channel>
