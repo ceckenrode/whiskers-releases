@@ -7,32 +7,32 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.27</title>
+      <title>Whiskers 0.8.28</title>
       <description><![CDATA[
-<h3>What's New in 0.8.26</h3>
-<p>### Onboarding Experience Refresh</p>
-<li>Added a cleaner, more guided onboarding layout with clearer step progress and improved visual feedback</li>
-<li>Improved microphone and Accessibility setup steps with clearer status states and better recovery actions</li>
-<li>Added a stronger "Try it" verification success state so it is obvious when setup is complete</li>
-<p>### Model Setup Clarity</p>
-<li>Improved onboarding model selection with clearer readiness, download progress, and recommended-model guidance</li>
-<li>Added explicit loading and setup-required messaging so Bulk Transcription waits for model state instead of showing premature missing-model prompts</li>
-<p>### Reliability Improvements</p>
-<li>Improved transcript loading reliability when macOS temporarily limits secure storage access (for example around wake/lock transitions)</li>
-<li>Added automatic retry behavior for transient secure-storage failures so history refreshes once the system settles</li>
-<h3>What's New in 0.8.27</h3>
-<p>### Bug Fixes</p>
-<li>Rounded the macOS app icon assets and added corner-transparency validation so Dock/Finder on macOS 15 renders Whiskers with the expected rounded badge instead of a square splash; if the icon still looks square after updating,  to refresh the cache.</li>
+<h3>What's New in 0.8.28</h3>
+<p>### Local Model Reliability</p>
+<li>Improved local model storage so Whiskers now uses a single stable location and automatically migrates existing model files from legacy paths</li>
+<li>Reduced model setup friction by moving fully to the active whisper.cpp local stack and validating model files against expected checksums</li>
+<p>### Bulk Transcription</p>
+<li>Improved Bulk Transcription startup so saved files and progress restore cleanly without the brief empty-state flash</li>
+<li>Improved status clarity during transcription and kept model availability warm while background refreshes run</li>
+<li>Clarified export behavior by showing how transformed text is used for Copy/TXT and original segments for SRT</li>
+<p>### Support & Feedback</p>
+<li>Added direct in-app feedback submission so you can send issues or suggestions straight to the Whiskers team</li>
+<li>Improved support form validation with clearer minimum-length guidance and more stable layout while validation hints appear</li>
+<li>Improved submission feedback with clearer success and error messages for network/server failures</li>
+<p>### Improvements</p>
+<li>Reorganized Settings sections so key pages like Models and Bulk Transcription are easier to find</li>
       ]]></description>
-      <pubDate>Thu, 12 Feb 2026 23:48:47 +0000</pubDate>
-      <sparkle:version>536</sparkle:version>
-      <sparkle:shortVersionString>0.8.27</sparkle:shortVersionString>
+      <pubDate>Fri, 20 Feb 2026 02:25:08 +0000</pubDate>
+      <sparkle:version>555</sparkle:version>
+      <sparkle:shortVersionString>0.8.28</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.27/Whiskers.zip"
-        length="12817391"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.28/Whiskers.zip"
+        length="12821776"
         type="application/zip"
-        sparkle:edSignature="cCy9lJpL1qZOsh8SLEF+xtnPIfT4z/zwV/kJaqdl01zrD2thmtPLPCUtYk8PtcBIkvoj0q1ZFMpMeRousyw+BA=="
+        sparkle:edSignature="/sP4SbhhCg3KmHgpSH7Bsdpncjl8i0i3FgLC8NRsQdYII5XwaVLm/mEQOdpNfyYQTDEikNo4BRS27yDPhW5DAw=="
       />
     </item>
   </channel>
