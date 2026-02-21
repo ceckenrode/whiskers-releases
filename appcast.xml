@@ -7,32 +7,26 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.28</title>
+      <title>Whiskers 0.8.29</title>
       <description><![CDATA[
-<h3>What's New in 0.8.28</h3>
-<p>### Local Model Reliability</p>
-<li>Improved local model storage so Whiskers now uses a single stable location and automatically migrates existing model files from legacy paths</li>
-<li>Reduced model setup friction by moving fully to the active whisper.cpp local stack and validating model files against expected checksums</li>
-<p>### Bulk Transcription</p>
-<li>Improved Bulk Transcription startup so saved files and progress restore cleanly without the brief empty-state flash</li>
-<li>Improved status clarity during transcription and kept model availability warm while background refreshes run</li>
-<li>Clarified export behavior by showing how transformed text is used for Copy/TXT and original segments for SRT</li>
-<p>### Support & Feedback</p>
-<li>Added direct in-app feedback submission so you can send issues or suggestions straight to the Whiskers team</li>
-<li>Improved support form validation with clearer minimum-length guidance and more stable layout while validation hints appear</li>
-<li>Improved submission feedback with clearer success and error messages for network/server failures</li>
+<h3>What's New in 0.8.29</h3>
+<p>### Screen Context (Optional)</p>
+<li>Added optional Screen Context for AI Enhancement, using text from your active window to better handle file names, symbols, and paths</li>
+<li>Process Screen Context locally and send only extracted text to your AI provider, never a screenshot</li>
+<li>Added onboarding and Settings controls to help you enable Screen Context when you want it</li>
 <p>### Improvements</p>
-<li>Reorganized Settings sections so key pages like Models and Bulk Transcription are easier to find</li>
+<li>Improved Screen Context text extraction to reduce noise for more reliable enhancement</li>
+<li>Improved automatic update defaults so Whiskers checks daily by default without overriding preferences you’ve already changed</li>
       ]]></description>
-      <pubDate>Fri, 20 Feb 2026 02:25:08 +0000</pubDate>
-      <sparkle:version>555</sparkle:version>
-      <sparkle:shortVersionString>0.8.28</sparkle:shortVersionString>
+      <pubDate>Sat, 21 Feb 2026 07:25:39 +0000</pubDate>
+      <sparkle:version>576</sparkle:version>
+      <sparkle:shortVersionString>0.8.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.28/Whiskers.zip"
-        length="12821776"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.29/Whiskers.zip"
+        length="12947369"
         type="application/zip"
-        sparkle:edSignature="/sP4SbhhCg3KmHgpSH7Bsdpncjl8i0i3FgLC8NRsQdYII5XwaVLm/mEQOdpNfyYQTDEikNo4BRS27yDPhW5DAw=="
+        sparkle:edSignature="Wgmi6IcHvAskrhW9D4JIqO6haoCL4xMxOCep8vH89UE43HsumEqd5Y5gZUY5KF9eDWGaBNrLvJNxxVezhSltDQ=="
       />
     </item>
   </channel>
