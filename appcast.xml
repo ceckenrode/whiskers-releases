@@ -7,26 +7,26 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.29</title>
+      <title>Whiskers 0.8.30</title>
       <description><![CDATA[
-<h3>What's New in 0.8.29</h3>
-<p>### Screen Context (Optional)</p>
-<li>Added optional Screen Context for AI Enhancement, using text from your active window to better handle file names, symbols, and paths</li>
-<li>Process Screen Context locally and send only extracted text to your AI provider, never a screenshot</li>
-<li>Added onboarding and Settings controls to help you enable Screen Context when you want it</li>
+<h3>What's New in 0.8.30</h3>
+<p>### Screen Awareness (Optional)</p>
+<li>Renamed Screen Context to Screen Awareness, with clearer explanations in onboarding and settings so you can decide when to enable it.</li>
+<li>Improved the surrounding permission and settings copy to better set expectations about what’s used to help AI Enhancement.</li>
+<p>### Bulk Transcription: SRT Export</p>
+<li>SRT export is now only available when your transcription includes real timestamped segments, preventing blank or incorrect subtitle files.</li>
 <p>### Improvements</p>
-<li>Improved Screen Context text extraction to reduce noise for more reliable enhancement</li>
-<li>Improved automatic update defaults so Whiskers checks daily by default without overriding preferences you’ve already changed</li>
+<li>The Support feedback form no longer asks for your email, and feedback submission has been streamlined for more reliable delivery.</li>
       ]]></description>
-      <pubDate>Sat, 21 Feb 2026 07:25:39 +0000</pubDate>
-      <sparkle:version>576</sparkle:version>
-      <sparkle:shortVersionString>0.8.29</sparkle:shortVersionString>
+      <pubDate>Tue, 24 Feb 2026 22:45:26 +0000</pubDate>
+      <sparkle:version>588</sparkle:version>
+      <sparkle:shortVersionString>0.8.30</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.29/Whiskers.zip"
-        length="12947369"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.30/Whiskers.zip"
+        length="13028685"
         type="application/zip"
-        sparkle:edSignature="Wgmi6IcHvAskrhW9D4JIqO6haoCL4xMxOCep8vH89UE43HsumEqd5Y5gZUY5KF9eDWGaBNrLvJNxxVezhSltDQ=="
+        sparkle:edSignature="0LYUACD6ama7uYoigsQmPhenTx5uCxPw4b8qwC5pevmm7uyvGGsNIGkJ8BsWcZYcTNMPBX5GgAE7b386NgADAQ=="
       />
     </item>
   </channel>
