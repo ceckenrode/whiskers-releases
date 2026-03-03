@@ -7,26 +7,30 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.30</title>
+      <title>Whiskers 0.8.31</title>
       <description><![CDATA[
-<h3>What's New in 0.8.30</h3>
-<p>### Screen Awareness (Optional)</p>
-<li>Renamed Screen Context to Screen Awareness, with clearer explanations in onboarding and settings so you can decide when to enable it.</li>
-<li>Improved the surrounding permission and settings copy to better set expectations about what’s used to help AI Enhancement.</li>
-<p>### Bulk Transcription: SRT Export</p>
-<li>SRT export is now only available when your transcription includes real timestamped segments, preventing blank or incorrect subtitle files.</li>
+<h3>What's New in 0.8.31</h3>
+<p>### Licensing & Free Tier</p>
+<li>Added License settings to activate premium and view remaining free dictation time</li>
+<li>Improved in-app messages when you reach free limits, with quick access to purchase or enter a license key</li>
+<li>Enforced free-plan usage limits for bulk transcription</li>
+<p>### Dictation & Setup</p>
+<li>Improved hotkey responsiveness and reliability</li>
+<li>Added clearer guidance when microphone access, accessibility access, or model setup is required</li>
 <p>### Improvements</p>
-<li>The Support feedback form no longer asks for your email, and feedback submission has been streamlined for more reliable delivery.</li>
+<li>Improved bulk transcription model availability with automatic fallback when the selected model is unavailable</li>
+<p>### Bug Fixes</p>
+<li>Fixed edge cases where bulk transcription could end up using an unready model</li>
       ]]></description>
-      <pubDate>Tue, 24 Feb 2026 22:45:26 +0000</pubDate>
-      <sparkle:version>588</sparkle:version>
-      <sparkle:shortVersionString>0.8.30</sparkle:shortVersionString>
+      <pubDate>Tue, 03 Mar 2026 23:45:15 +0000</pubDate>
+      <sparkle:version>597</sparkle:version>
+      <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.30/Whiskers.zip"
-        length="13028685"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.31/Whiskers.zip"
+        length="13394313"
         type="application/zip"
-        sparkle:edSignature="0LYUACD6ama7uYoigsQmPhenTx5uCxPw4b8qwC5pevmm7uyvGGsNIGkJ8BsWcZYcTNMPBX5GgAE7b386NgADAQ=="
+        sparkle:edSignature="KOdQyR+myLHN1JQKwnYy6vBxEitbamIrXk6cq5U1yXSkS5TTMFdFdPQUMeI2Y3qJw6hEYNyfktdmvjJ9ggBOAA=="
       />
     </item>
   </channel>
