@@ -22,15 +22,15 @@
 <p>### Bug Fixes</p>
 <li>Fixed edge cases where bulk transcription could end up using an unready model</li>
       ]]></description>
-      <pubDate>Tue, 03 Mar 2026 23:45:15 +0000</pubDate>
-      <sparkle:version>597</sparkle:version>
+      <pubDate>Wed, 04 Mar 2026 00:37:49 +0000</pubDate>
+      <sparkle:version>599</sparkle:version>
       <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.31/Whiskers.zip"
-        length="13394313"
+        length="13387906"
         type="application/zip"
-        sparkle:edSignature="KOdQyR+myLHN1JQKwnYy6vBxEitbamIrXk6cq5U1yXSkS5TTMFdFdPQUMeI2Y3qJw6hEYNyfktdmvjJ9ggBOAA=="
+        sparkle:edSignature="II34dI/SNo+/Avsa4bQBOHFlPoiT2bJZHy0M7qEDoi/aI+f4ZCxLB7ana5j7ZvvnUqpmISIjtomcCyw1Z3IRAQ=="
       />
     </item>
   </channel>
