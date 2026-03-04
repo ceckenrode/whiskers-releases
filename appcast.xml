@@ -7,30 +7,32 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.31</title>
+      <title>Whiskers 0.8.32</title>
       <description><![CDATA[
-<h3>What's New in 0.8.31</h3>
-<p>### Licensing & Free Tier</p>
-<li>Added License settings to activate premium and view remaining free dictation time</li>
-<li>Improved in-app messages when you reach free limits, with quick access to purchase or enter a license key</li>
-<li>Enforced free-plan usage limits for bulk transcription</li>
-<p>### Dictation & Setup</p>
-<li>Improved hotkey responsiveness and reliability</li>
-<li>Added clearer guidance when microphone access, accessibility access, or model setup is required</li>
+<h3>What's New in 0.8.32</h3>
+<p>### New: Rolling Free-Tier Usage Windows</p>
+<li>Free dictation limits now reset on a rolling basis (
+wtmp begins Mon Feb 23 04:41:00 UTC 2026 and 
+wtmp begins Mon Feb 23 04:41:00 UTC 2026) instead of waiting for calendar day/week boundaries, so usage restores progressively based on elapsed time.</li>
+<li>Bulk transcription free-tier use now follows a rolling 24-hour window.</li>
 <p>### Improvements</p>
-<li>Improved bulk transcription model availability with automatic fallback when the selected model is unavailable</li>
+<li>Updated settings copy and usage labels to match the new rolling behavior:</li>
+<p>  - </p>
+<p>  - </p>
+<p>  - </p>
 <p>### Bug Fixes</p>
-<li>Fixed edge cases where bulk transcription could end up using an unready model</li>
+<li>Fixed license activation for valid keys that were previously rejected before machine setup due to stricter fingerprint payload behavior.</li>
+<li>Improved recovery when activation APIs return “already activated / already exists” style responses by reusing the existing matching machine instead of failing the license flow.</li>
       ]]></description>
-      <pubDate>Wed, 04 Mar 2026 00:37:49 +0000</pubDate>
-      <sparkle:version>599</sparkle:version>
-      <sparkle:shortVersionString>0.8.31</sparkle:shortVersionString>
+      <pubDate>Wed, 04 Mar 2026 06:10:03 +0000</pubDate>
+      <sparkle:version>605</sparkle:version>
+      <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.31/Whiskers.zip"
-        length="13387906"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.32/Whiskers.zip"
+        length="13418642"
         type="application/zip"
-        sparkle:edSignature="II34dI/SNo+/Avsa4bQBOHFlPoiT2bJZHy0M7qEDoi/aI+f4ZCxLB7ana5j7ZvvnUqpmISIjtomcCyw1Z3IRAQ=="
+        sparkle:edSignature="moI4vNg/G8uPV8dNhnlp3VY9vVIDZSuFKOBMgefLj+W7xNPdLsyNia3D2uIwKilpCprb3LfqF8S2KPMzU1ZZCg=="
       />
     </item>
   </channel>
