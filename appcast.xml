@@ -7,32 +7,24 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.32</title>
+      <title>Whiskers 0.8.33</title>
       <description><![CDATA[
-<h3>What's New in 0.8.32</h3>
-<p>### New: Rolling Free-Tier Usage Windows</p>
-<li>Free dictation limits now reset on a rolling basis (
-wtmp begins Mon Feb 23 04:41:00 UTC 2026 and 
-wtmp begins Mon Feb 23 04:41:00 UTC 2026) instead of waiting for calendar day/week boundaries, so usage restores progressively based on elapsed time.</li>
-<li>Bulk transcription free-tier use now follows a rolling 24-hour window.</li>
-<p>### Improvements</p>
-<li>Updated settings copy and usage labels to match the new rolling behavior:</li>
-<p>  - </p>
-<p>  - </p>
-<p>  - </p>
+<h3>What's New in 0.8.33</h3>
+<p>### License & Usage</p>
+<li>Added a clearer Plan & Usage view so you can see daily/weekly word limits and bulk runs at a glance</li>
+<li>Improved license activation with immediate feedback when a key looks incomplete</li>
 <p>### Bug Fixes</p>
-<li>Fixed license activation for valid keys that were previously rejected before machine setup due to stricter fingerprint payload behavior.</li>
-<li>Improved recovery when activation APIs return “already activated / already exists” style responses by reusing the existing matching machine instead of failing the license flow.</li>
+<li>Fixed a flicker where Pro management controls could disappear briefly while your license was being verified</li>
       ]]></description>
-      <pubDate>Wed, 04 Mar 2026 06:10:03 +0000</pubDate>
-      <sparkle:version>605</sparkle:version>
-      <sparkle:shortVersionString>0.8.32</sparkle:shortVersionString>
+      <pubDate>Thu, 05 Mar 2026 02:54:12 +0000</pubDate>
+      <sparkle:version>608</sparkle:version>
+      <sparkle:shortVersionString>0.8.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.32/Whiskers.zip"
-        length="13418642"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.33/Whiskers.zip"
+        length="13452042"
         type="application/zip"
-        sparkle:edSignature="moI4vNg/G8uPV8dNhnlp3VY9vVIDZSuFKOBMgefLj+W7xNPdLsyNia3D2uIwKilpCprb3LfqF8S2KPMzU1ZZCg=="
+        sparkle:edSignature="/PvV/1X/eL60IYTJexcD6KdLWJYvvvT0X+x69EXvO0ZoDJuAqDzLYsjgUkbcT7GFfs5XrGCSY0qQPIlmAdB1Bg=="
       />
     </item>
   </channel>
