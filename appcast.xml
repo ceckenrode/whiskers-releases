@@ -16,15 +16,15 @@
 <p>### Bug Fixes</p>
 <li>Fixed a flicker where Pro management controls could disappear briefly while your license was being verified</li>
       ]]></description>
-      <pubDate>Thu, 05 Mar 2026 02:54:12 +0000</pubDate>
-      <sparkle:version>608</sparkle:version>
+      <pubDate>Thu, 05 Mar 2026 03:23:21 +0000</pubDate>
+      <sparkle:version>610</sparkle:version>
       <sparkle:shortVersionString>0.8.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.33/Whiskers.zip"
-        length="13452042"
+        length="13486328"
         type="application/zip"
-        sparkle:edSignature="/PvV/1X/eL60IYTJexcD6KdLWJYvvvT0X+x69EXvO0ZoDJuAqDzLYsjgUkbcT7GFfs5XrGCSY0qQPIlmAdB1Bg=="
+        sparkle:edSignature="22GHncRNzTeEJXVPoLFnaOIqvOCZl0Zewwa3ho/Fwihj8wmB38FqqBOSx3JDUvds3Kw9W5Qb+xlqxXNDY3zHDA=="
       />
     </item>
   </channel>
