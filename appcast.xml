@@ -16,20 +16,21 @@
 <p>### Improvements</p>
 <li>Added clearer in-app feedback when recording cannot start due to permissions, model readiness, or audio issues</li>
 <li>Improved hotkey startup reliability after launch and after granting Accessibility permission</li>
+<li>Added more detailed startup results so launch-time hotkey failures surface clearer diagnostics</li>
 <li>Improved the recording start cue when using Bluetooth output so it is more consistently audible</li>
 <li>Simplified model names in the model picker to reduce clutter</li>
 <p>### Bug Fixes</p>
 <li>Fixed an issue where downloading a model could unexpectedly change your currently selected model</li>
       ]]></description>
-      <pubDate>Wed, 11 Mar 2026 03:53:08 +0000</pubDate>
-      <sparkle:version>625</sparkle:version>
+      <pubDate>Wed, 11 Mar 2026 04:47:25 +0000</pubDate>
+      <sparkle:version>627</sparkle:version>
       <sparkle:shortVersionString>0.8.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.34/Whiskers.zip"
-        length="13748665"
+        length="13754704"
         type="application/zip"
-        sparkle:edSignature="7lcJ3VkafZW75I/B9/rOMPbp7noZf31+XEqyevNHHh4lGls0uNR9LjLlUqqlLziXnmV4Yc4cm7F0RRnpnrklDw=="
+        sparkle:edSignature="g942XHPZmWb9xxOh3SmxNWacG7LiJwaoUlmfSo7KoP0STNLb1LgRVFngWI3D1UB4C0krNuLNa1j2Wd/z7gIzAQ=="
       />
     </item>
   </channel>
