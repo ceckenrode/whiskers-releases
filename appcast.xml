@@ -7,24 +7,29 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.33</title>
+      <title>Whiskers 0.8.34</title>
       <description><![CDATA[
-<h3>What's New in 0.8.33</h3>
-<p>### License & Usage</p>
-<li>Added a clearer Plan & Usage view so you can see daily/weekly word limits and bulk runs at a glance</li>
-<li>Improved license activation with immediate feedback when a key looks incomplete</li>
+<h3>What's New in 0.8.34</h3>
+<p>### Bulk Transcription</p>
+<li>Redesigned the Bulk Transcription page with a clearer import flow and more detailed file cards</li>
+<li>Added a bulk-only AI enhancement model override so you can choose a different enhancement model for bulk runs without changing your global setting</li>
+<p>### Improvements</p>
+<li>Added clearer in-app feedback when recording cannot start due to permissions, model readiness, or audio issues</li>
+<li>Improved hotkey startup reliability after launch and after granting Accessibility permission</li>
+<li>Improved the recording start cue when using Bluetooth output so it is more consistently audible</li>
+<li>Simplified model names in the model picker to reduce clutter</li>
 <p>### Bug Fixes</p>
-<li>Fixed a flicker where Pro management controls could disappear briefly while your license was being verified</li>
+<li>Fixed an issue where downloading a model could unexpectedly change your currently selected model</li>
       ]]></description>
-      <pubDate>Thu, 05 Mar 2026 03:23:21 +0000</pubDate>
-      <sparkle:version>610</sparkle:version>
-      <sparkle:shortVersionString>0.8.33</sparkle:shortVersionString>
+      <pubDate>Wed, 11 Mar 2026 03:53:08 +0000</pubDate>
+      <sparkle:version>625</sparkle:version>
+      <sparkle:shortVersionString>0.8.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.33/Whiskers.zip"
-        length="13486328"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.34/Whiskers.zip"
+        length="13748665"
         type="application/zip"
-        sparkle:edSignature="22GHncRNzTeEJXVPoLFnaOIqvOCZl0Zewwa3ho/Fwihj8wmB38FqqBOSx3JDUvds3Kw9W5Qb+xlqxXNDY3zHDA=="
+        sparkle:edSignature="7lcJ3VkafZW75I/B9/rOMPbp7noZf31+XEqyevNHHh4lGls0uNR9LjLlUqqlLziXnmV4Yc4cm7F0RRnpnrklDw=="
       />
     </item>
   </channel>
