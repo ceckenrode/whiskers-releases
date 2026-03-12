@@ -7,30 +7,29 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.34</title>
+      <title>Whiskers 0.8.35</title>
       <description><![CDATA[
-<h3>What's New in 0.8.34</h3>
-<p>### Bulk Transcription</p>
-<li>Redesigned the Bulk Transcription page with a clearer import flow and more detailed file cards</li>
-<li>Added a bulk-only AI enhancement model override so you can choose a different enhancement model for bulk runs without changing your global setting</li>
-<p>### Improvements</p>
-<li>Added clearer in-app feedback when recording cannot start due to permissions, model readiness, or audio issues</li>
-<li>Improved hotkey startup reliability after launch and after granting Accessibility permission</li>
-<li>Added more detailed startup results so launch-time hotkey failures surface clearer diagnostics</li>
-<li>Improved the recording start cue when using Bluetooth output so it is more consistently audible</li>
-<li>Simplified model names in the model picker to reduce clutter</li>
+<h3>What's New in 0.8.35</h3>
+<p>### Custom Providers</p>
+<li>Added advanced request settings for custom AI providers so you can send extra headers and body fields to OpenAI-compatible endpoints</li>
+<li>Added support for text, number, and on/off custom body fields so provider-specific options are easier to configure</li>
+<p>### Transcript History</p>
+<li>Improved expanded transcript rows with clearer playback details, cleaner timestamps, and easier access to raw versus AI-enhanced text</li>
+<li>Improved transcript selection when filtering history so select all, deselect, and export actions behave more predictably</li>
+<li>Improved transcript exports with more complete timestamp formatting</li>
 <p>### Bug Fixes</p>
-<li>Fixed an issue where downloading a model could unexpectedly change your currently selected model</li>
+<li>Fixed a startup issue where global hotkeys could remain unavailable briefly after launch even when Accessibility was already enabled</li>
+<li>Added clearer in-app feedback when hotkeys are still initializing or need Accessibility to be re-enabled</li>
       ]]></description>
-      <pubDate>Wed, 11 Mar 2026 04:47:25 +0000</pubDate>
-      <sparkle:version>627</sparkle:version>
-      <sparkle:shortVersionString>0.8.34</sparkle:shortVersionString>
+      <pubDate>Thu, 12 Mar 2026 20:23:37 +0000</pubDate>
+      <sparkle:version>633</sparkle:version>
+      <sparkle:shortVersionString>0.8.35</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.34/Whiskers.zip"
-        length="13754704"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.35/Whiskers.zip"
+        length="13970975"
         type="application/zip"
-        sparkle:edSignature="g942XHPZmWb9xxOh3SmxNWacG7LiJwaoUlmfSo7KoP0STNLb1LgRVFngWI3D1UB4C0krNuLNa1j2Wd/z7gIzAQ=="
+        sparkle:edSignature="xUvnMyIi8JbDKHtbXfQfKd9cPtkrvZ8AM8FXg4yJ4zCVbvIN7b/aH2pTG+ZUGOoRxfMd2XXKKm9Qo2lVlsGbAw=="
       />
     </item>
   </channel>
