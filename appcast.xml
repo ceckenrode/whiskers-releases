@@ -18,16 +18,18 @@
 <li>Improved handling for saved API provider trust rules by refreshing managed security policies on launch</li>
 <p>### Licensing</p>
 <li>Fixed license validation so Macs that need activation are handled more reliably during premium setup and refresh</li>
+<li>Fixed certificate pinning for the licensing backend so license activation keeps working after backend certificate rotation</li>
+<li>Kept license purchase actions visible when activation fails so recovery paths remain available</li>
       ]]></description>
-      <pubDate>Tue, 17 Mar 2026 04:51:32 +0000</pubDate>
-      <sparkle:version>638</sparkle:version>
+      <pubDate>Tue, 17 Mar 2026 05:26:29 +0000</pubDate>
+      <sparkle:version>639</sparkle:version>
       <sparkle:shortVersionString>0.8.36</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.36/Whiskers.zip"
-        length="14048471"
+        length="14047676"
         type="application/zip"
-        sparkle:edSignature="wMpaTPeiS9qKuYSnNI8uWStULpzYUxFcwREU2sT9ly09VQrj9RoezywxA5SN9TWhL62epuvFHoasPL4wPnGADg=="
+        sparkle:edSignature="0VJvB5Htbkv8lhrzFm5XGErZ7grsiN6rlCxe5s+/XeYnMNpGemxYFAuZpu24nDe6qhrt2HheQXubnDs8UqW3Cw=="
       />
     </item>
   </channel>
