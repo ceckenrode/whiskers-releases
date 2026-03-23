@@ -7,29 +7,27 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.36</title>
+      <title>Whiskers 0.8.37</title>
       <description><![CDATA[
-<h3>What's New in 0.8.36</h3>
-<p>### Gemini Enhancement</p>
-<li>Added an option to let Gemini handle transcription and enhancement together in a single request for faster results</li>
-<li>Improved fallback behavior so Whiskers can return to the standard two-step flow automatically if the combined Gemini path fails</li>
-<p>### AI Provider Setup</p>
-<li>Improved the AI provider settings with clearer model selection, smoother provider switching, and better status feedback while validation is in progress</li>
-<li>Improved handling for saved API provider trust rules by refreshing managed security policies on launch</li>
-<p>### Licensing</p>
-<li>Fixed license validation so Macs that need activation are handled more reliably during premium setup and refresh</li>
-<li>Fixed certificate pinning for the licensing backend so license activation keeps working after backend certificate rotation</li>
-<li>Kept license purchase actions visible when activation fails so recovery paths remain available</li>
+<h3>What's New in 0.8.37</h3>
+<p>### Bluetooth Dictation</p>
+<li>Improved Bluetooth dictation startup so recording begins more promptly without the usual warm-up delay</li>
+<li>Improved handling for quieter speech so soft-spoken recordings come through more reliably</li>
+<p>### Improvements</p>
+<li>Added support diagnostics to make troubleshooting easier when something goes wrong</li>
+<p>### Bug Fixes</p>
+<li>Fixed license removal so deactivating a machine is handled correctly</li>
+<li>Improved the machine limit error message so it is clearer when you have reached your activation limit</li>
       ]]></description>
-      <pubDate>Tue, 17 Mar 2026 05:26:29 +0000</pubDate>
-      <sparkle:version>639</sparkle:version>
-      <sparkle:shortVersionString>0.8.36</sparkle:shortVersionString>
+      <pubDate>Mon, 23 Mar 2026 01:17:13 +0000</pubDate>
+      <sparkle:version>651</sparkle:version>
+      <sparkle:shortVersionString>0.8.37</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.36/Whiskers.zip"
-        length="14047676"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.37/Whiskers.zip"
+        length="14203792"
         type="application/zip"
-        sparkle:edSignature="0VJvB5Htbkv8lhrzFm5XGErZ7grsiN6rlCxe5s+/XeYnMNpGemxYFAuZpu24nDe6qhrt2HheQXubnDs8UqW3Cw=="
+        sparkle:edSignature="UH2XIBnAymgl/OByHaYBSaH18W2YRE4O8CE+sCMC/VzvULNlepXH01e42CSBVY/D+/ndTmZy6+ZMF5Q3iOdsBg=="
       />
     </item>
   </channel>
