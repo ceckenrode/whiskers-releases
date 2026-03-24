@@ -7,27 +7,25 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.37</title>
+      <title>Whiskers 0.8.38</title>
       <description><![CDATA[
-<h3>What's New in 0.8.37</h3>
-<p>### Bluetooth Dictation</p>
-<li>Improved Bluetooth dictation startup so recording begins more promptly without the usual warm-up delay</li>
-<li>Improved handling for quieter speech so soft-spoken recordings come through more reliably</li>
+<h3>What's New in 0.8.38</h3>
+<p>### General Settings</p>
+<li>Added a new General settings page for everyday app preferences</li>
+<li>Added controls for launching Whiskers at login and turning recording cue sounds on or off</li>
+<li>Added update status and install controls so you can check for new versions without leaving settings</li>
 <p>### Improvements</p>
-<li>Added support diagnostics to make troubleshooting easier when something goes wrong</li>
-<p>### Bug Fixes</p>
-<li>Fixed license removal so deactivating a machine is handled correctly</li>
-<li>Improved the machine limit error message so it is clearer when you have reached your activation limit</li>
+<li>Added update badges in Settings and the Dock so available updates are easier to spot</li>
       ]]></description>
-      <pubDate>Mon, 23 Mar 2026 01:17:13 +0000</pubDate>
-      <sparkle:version>651</sparkle:version>
-      <sparkle:shortVersionString>0.8.37</sparkle:shortVersionString>
+      <pubDate>Tue, 24 Mar 2026 01:23:55 +0000</pubDate>
+      <sparkle:version>654</sparkle:version>
+      <sparkle:shortVersionString>0.8.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.37/Whiskers.zip"
-        length="14203792"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.38/Whiskers.zip"
+        length="14273692"
         type="application/zip"
-        sparkle:edSignature="UH2XIBnAymgl/OByHaYBSaH18W2YRE4O8CE+sCMC/VzvULNlepXH01e42CSBVY/D+/ndTmZy6+ZMF5Q3iOdsBg=="
+        sparkle:edSignature="Rsn9/SI8kxpF8dKGNUwzCtDqPKbNmIawNMeyoGlTZ/Ts1osfhJZ6epVN7Tu8KjMlcpf51CFdBQeZQrwA6hHkCA=="
       />
     </item>
   </channel>
