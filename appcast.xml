@@ -7,25 +7,28 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.38</title>
+      <title>Whiskers 0.8.39</title>
       <description><![CDATA[
-<h3>What's New in 0.8.38</h3>
+<h3>What's New in 0.8.39</h3>
+<p>### Support</p>
+<li>Added screenshot attachments to the Support form so you can show exactly what went wrong when reporting an issue</li>
+<li>Improved feedback delivery so your message still goes through even if screenshot uploads are unavailable</li>
 <p>### General Settings</p>
-<li>Added a new General settings page for everyday app preferences</li>
-<li>Added controls for launching Whiskers at login and turning recording cue sounds on or off</li>
-<li>Added update status and install controls so you can check for new versions without leaving settings</li>
+<li>Added a new promotions and updates feed in General settings for product news, tips, and important actions</li>
+<li>Added badges in Settings and the Dock so new items are easier to spot and review later</li>
 <p>### Improvements</p>
-<li>Added update badges in Settings and the Dock so available updates are easier to spot</li>
+<li>Improved recording startup and HUD behavior so dictation feels more reliable, especially when audio devices are slow to become ready</li>
+<li>Improved Bluetooth recording startup recovery to reduce missed starts before speech begins</li>
       ]]></description>
-      <pubDate>Tue, 24 Mar 2026 01:23:55 +0000</pubDate>
-      <sparkle:version>654</sparkle:version>
-      <sparkle:shortVersionString>0.8.38</sparkle:shortVersionString>
+      <pubDate>Wed, 25 Mar 2026 02:03:20 +0000</pubDate>
+      <sparkle:version>665</sparkle:version>
+      <sparkle:shortVersionString>0.8.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.38/Whiskers.zip"
-        length="14273692"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.39/Whiskers.zip"
+        length="14505129"
         type="application/zip"
-        sparkle:edSignature="Rsn9/SI8kxpF8dKGNUwzCtDqPKbNmIawNMeyoGlTZ/Ts1osfhJZ6epVN7Tu8KjMlcpf51CFdBQeZQrwA6hHkCA=="
+        sparkle:edSignature="f+ElaejfxXlZNYVIuXYP8yCunPR02DY+8WY5r/Tbi0YU7xAlDJPRqwIcqdpa5s+bPtqGIzxHf/oj0pB6Cw6BBQ=="
       />
     </item>
   </channel>
