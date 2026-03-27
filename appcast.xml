@@ -7,28 +7,27 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.39</title>
+      <title>Whiskers 0.8.40</title>
       <description><![CDATA[
-<h3>What's New in 0.8.39</h3>
-<p>### Support</p>
-<li>Added screenshot attachments to the Support form so you can show exactly what went wrong when reporting an issue</li>
-<li>Improved feedback delivery so your message still goes through even if screenshot uploads are unavailable</li>
+<h3>What's New in 0.8.40</h3>
+<p>### AI Enhancement Prompts</p>
+<li>Added a richer set of built-in prompt styles so you can quickly turn dictation into polished writing, casual messages, summaries, emails, translations, and first drafts</li>
+<li>Improved prompt handling so AI enhancement stays focused on your spoken words instead of getting distracted by text visible on screen</li>
+<p>### Bulk Transcription</p>
+<li>Fixed the Manage Prompts shortcut in Bulk Transcription so it opens the right AI settings section again</li>
+<li>Improved prompt navigation from bulk transcription so it lands directly on prompt controls instead of sending you through a separate sheet</li>
 <p>### General Settings</p>
-<li>Added a new promotions and updates feed in General settings for product news, tips, and important actions</li>
-<li>Added badges in Settings and the Dock so new items are easier to spot and review later</li>
-<p>### Improvements</p>
-<li>Improved recording startup and HUD behavior so dictation feels more reliable, especially when audio devices are slow to become ready</li>
-<li>Improved Bluetooth recording startup recovery to reduce missed starts before speech begins</li>
+<li>Improved update status in General settings so background refreshes keep the last known result visible instead of briefly falling back to a less useful state</li>
       ]]></description>
-      <pubDate>Wed, 25 Mar 2026 02:03:20 +0000</pubDate>
-      <sparkle:version>665</sparkle:version>
-      <sparkle:shortVersionString>0.8.39</sparkle:shortVersionString>
+      <pubDate>Fri, 27 Mar 2026 06:55:26 +0000</pubDate>
+      <sparkle:version>675</sparkle:version>
+      <sparkle:shortVersionString>0.8.40</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.39/Whiskers.zip"
-        length="14505129"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.40/Whiskers.zip"
+        length="14477808"
         type="application/zip"
-        sparkle:edSignature="f+ElaejfxXlZNYVIuXYP8yCunPR02DY+8WY5r/Tbi0YU7xAlDJPRqwIcqdpa5s+bPtqGIzxHf/oj0pB6Cw6BBQ=="
+        sparkle:edSignature="zNdIy9V7WlDgoXM4WZNnShp3eJ56W8BBcYslQ7P9kck3iLSr9Ea2vtS6HiZ1s0etgpHGWQjw3aSu0Fguza5uCA=="
       />
     </item>
   </channel>
