@@ -7,27 +7,29 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.42</title>
+      <title>Whiskers 0.8.43</title>
       <description><![CDATA[
-<h3>What's New in 0.8.42</h3>
-<p>### Live Dictation</p>
-<li>Added faster cloud dictation for supported providers so spoken text starts appearing sooner while you talk</li>
-<li>Improved live transcript handling so longer dictation sessions stay smoother and produce cleaner merged text</li>
-<p>### Recording & Updates</p>
-<li>Fixed quick tap recordings so very short presses are handled more reliably instead of feeling missed or inconsistent</li>
-<li>Improved update messaging so you can see when a newer build of the same version is available</li>
+<h3>What's New in 0.8.43</h3>
+<p>### Recording Hotkeys</p>
+<li>Double-tap a single-key recording shortcut like Fn to switch into hands-free dictation</li>
+<li>Press either recording hotkey again while hands-free recording is active to finalize without reaching for the HUD</li>
+<li>Improved hotkey guidance in Settings so hands-free behavior is clearer when your shortcut supports it</li>
+<p>### Reliability</p>
+<li>Improved Bluetooth microphone startup so recording is more reliable when wireless audio devices wake up slowly</li>
+<li>Reduced missed starts by warming up local dictation engines before you begin speaking</li>
+<li>Fixed very short hands-free recordings so intentional finalizes are handled correctly instead of being treated like cancels</li>
 <p>### App Icon</p>
-<li>Refreshed the Whiskers app icon with the new brand mark</li>
+<li>Refreshed the Whiskers app icon with the new Liquid Glass look</li>
       ]]></description>
-      <pubDate>Fri, 03 Apr 2026 01:00:55 +0000</pubDate>
-      <sparkle:version>693</sparkle:version>
-      <sparkle:shortVersionString>0.8.42</sparkle:shortVersionString>
+      <pubDate>Wed, 15 Apr 2026 04:27:22 +0000</pubDate>
+      <sparkle:version>703</sparkle:version>
+      <sparkle:shortVersionString>0.8.43</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.42/Whiskers.zip"
-        length="10125283"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.43/Whiskers.zip"
+        length="14815368"
         type="application/zip"
-        sparkle:edSignature="cJ2B2olgxCwiNfe0bEt+iNJ2mNB9NtnVTefe5/ddqRzm0Dg2DsayW8ICWmStlCoqEDh5dgrvSDyfqywG+VwjBQ=="
+        sparkle:edSignature="rZfxrjyIOwhPuLXg+xv4dpjHoj21hxNzJlSyrhvhUv/cgjS97iBU59EQ3z1c4nBL4qKQsoU5b/P95dJ0Pm4KCw=="
       />
     </item>
   </channel>
