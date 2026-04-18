@@ -7,29 +7,28 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.43</title>
+      <title>Whiskers 0.8.44</title>
       <description><![CDATA[
-<h3>What's New in 0.8.43</h3>
-<p>### Recording Hotkeys</p>
-<li>Double-tap a single-key recording shortcut like Fn to switch into hands-free dictation</li>
-<li>Press either recording hotkey again while hands-free recording is active to finalize without reaching for the HUD</li>
-<li>Improved hotkey guidance in Settings so hands-free behavior is clearer when your shortcut supports it</li>
-<p>### Reliability</p>
-<li>Improved Bluetooth microphone startup so recording is more reliable when wireless audio devices wake up slowly</li>
-<li>Reduced missed starts by warming up local dictation engines before you begin speaking</li>
-<li>Fixed very short hands-free recordings so intentional finalizes are handled correctly instead of being treated like cancels</li>
-<p>### App Icon</p>
-<li>Refreshed the Whiskers app icon with the new Liquid Glass look</li>
+<h3>What's New in 0.8.44</h3>
+<p>### Retroactive AI Enhancement</p>
+<li>Rewrite highlighted text while recording by pressing the retroactive shortcut, then speaking the change you want</li>
+<li>Added a dedicated retroactive shortcut so you can trigger selection edits without interrupting your normal dictation flow</li>
+<p>### Improvements</p>
+<li>Improved hotkey guidance in Settings so it’s clearer how retroactive editing works and when it’s available</li>
+<li>Improved the recording HUD so it’s easier to tell when Whiskers is in edit-selection mode</li>
+<p>### Bug Fixes</p>
+<li>Prevented retroactive edits from changing text when no clear rewrite was produced</li>
+<li>Kept recordings in normal dictation mode when AI enhancement or selected text is not available</li>
       ]]></description>
-      <pubDate>Wed, 15 Apr 2026 04:27:22 +0000</pubDate>
-      <sparkle:version>703</sparkle:version>
-      <sparkle:shortVersionString>0.8.43</sparkle:shortVersionString>
+      <pubDate>Sat, 18 Apr 2026 23:35:53 +0000</pubDate>
+      <sparkle:version>712</sparkle:version>
+      <sparkle:shortVersionString>0.8.44</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.43/Whiskers.zip"
-        length="14815368"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.44/Whiskers.zip"
+        length="15088019"
         type="application/zip"
-        sparkle:edSignature="rZfxrjyIOwhPuLXg+xv4dpjHoj21hxNzJlSyrhvhUv/cgjS97iBU59EQ3z1c4nBL4qKQsoU5b/P95dJ0Pm4KCw=="
+        sparkle:edSignature="M9kFaVjwKenyzBW/STF3SyeuplxnpfWD575D6mxBanZlrfA3W1KuiESG6hQbD/cndy0a/izwdnt/oJjD+gQFCg=="
       />
     </item>
   </channel>
