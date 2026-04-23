@@ -7,28 +7,34 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.44</title>
+      <title>Whiskers 0.8.45</title>
       <description><![CDATA[
-<h3>What's New in 0.8.44</h3>
-<p>### Retroactive AI Enhancement</p>
-<li>Rewrite highlighted text while recording by pressing the retroactive shortcut, then speaking the change you want</li>
-<li>Added a dedicated retroactive shortcut so you can trigger selection edits without interrupting your normal dictation flow</li>
+<h3>What's New in 0.8.45</h3>
+<p>### Local Models</p>
+<li>Added built-in local model choices so you can pick the speed and quality tradeoff that fits your Mac</li>
+<li>Added download and removal controls for local models, so it’s easier to manage storage without leaving Whiskers</li>
+<li>Improved reliability when downloading or reopening local models, reducing setup issues after interrupted downloads</li>
+<p>### Onboarding & Model Setup</p>
+<li>Redesigned model setup during onboarding so it’s clearer which model to start with and how to continue</li>
+<li>Improved the model picker across onboarding and Settings so local and cloud options feel more consistent</li>
+<li>Added clearer status feedback while models are downloading, ready, or need attention</li>
 <p>### Improvements</p>
-<li>Improved hotkey guidance in Settings so it’s clearer how retroactive editing works and when it’s available</li>
-<li>Improved the recording HUD so it’s easier to tell when Whiskers is in edit-selection mode</li>
+<li>Improved dictionary and replacement list layouts so saved items are easier to scan and manage</li>
+<li>Improved custom vocabulary chips so long terms are easier to read</li>
+<li>Updated the app update action label to show the available version more clearly</li>
+<li>Made the Add API key control easier to click</li>
 <p>### Bug Fixes</p>
-<li>Prevented retroactive edits from changing text when no clear rewrite was produced</li>
-<li>Kept recordings in normal dictation mode when AI enhancement or selected text is not available</li>
+<li>Fixed toast notifications so they stay centered and only use as much width as they need</li>
       ]]></description>
-      <pubDate>Sat, 18 Apr 2026 23:35:53 +0000</pubDate>
-      <sparkle:version>712</sparkle:version>
-      <sparkle:shortVersionString>0.8.44</sparkle:shortVersionString>
+      <pubDate>Thu, 23 Apr 2026 16:35:09 +0000</pubDate>
+      <sparkle:version>727</sparkle:version>
+      <sparkle:shortVersionString>0.8.45</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.44/Whiskers.zip"
-        length="15088019"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.45/Whiskers.zip"
+        length="15324515"
         type="application/zip"
-        sparkle:edSignature="M9kFaVjwKenyzBW/STF3SyeuplxnpfWD575D6mxBanZlrfA3W1KuiESG6hQbD/cndy0a/izwdnt/oJjD+gQFCg=="
+        sparkle:edSignature="C8KWbGJg+XcS3aVdHEFgfQAQVTK3DTcf//n88zh57ogIhxIfjq99t+4tmF5skJz3X5LSQGy6xOS4RTf3YMhOCw=="
       />
     </item>
   </channel>
