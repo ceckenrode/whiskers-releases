@@ -7,34 +7,33 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.45</title>
+      <title>Whiskers 0.8.46</title>
       <description><![CDATA[
-<h3>What's New in 0.8.45</h3>
-<p>### Local Models</p>
-<li>Added built-in local model choices so you can pick the speed and quality tradeoff that fits your Mac</li>
-<li>Added download and removal controls for local models, so it’s easier to manage storage without leaving Whiskers</li>
-<li>Improved reliability when downloading or reopening local models, reducing setup issues after interrupted downloads</li>
-<p>### Onboarding & Model Setup</p>
-<li>Redesigned model setup during onboarding so it’s clearer which model to start with and how to continue</li>
-<li>Improved the model picker across onboarding and Settings so local and cloud options feel more consistent</li>
-<li>Added clearer status feedback while models are downloading, ready, or need attention</li>
-<p>### Improvements</p>
-<li>Improved dictionary and replacement list layouts so saved items are easier to scan and manage</li>
-<li>Improved custom vocabulary chips so long terms are easier to read</li>
-<li>Updated the app update action label to show the available version more clearly</li>
-<li>Made the Add API key control easier to click</li>
+<h3>What's New in 0.8.46</h3>
+<p>### Local Whisper Models</p>
+<li>Improved local Whisper transcription reliability with a newer on-device runtime</li>
+<li>Added support for the large-v3-turbo Whisper model for stronger local transcription quality</li>
+<li>Improved local model validation so incomplete or changed model files are caught before dictation starts</li>
+<p>### Onboarding & Permissions</p>
+<li>Streamlined onboarding so setup starts with the required permissions and ends with a guided dictation test</li>
+<li>Added clearer permission recovery steps, including reveal-in-Finder help when macOS needs you to add Whiskers manually</li>
+<li>Improved the practice dictation step so successful inserted text is detected more reliably</li>
+<p>### Screen Awareness</p>
+<li>Improved Screen Awareness matching for file names, code symbols, API routes, issue numbers, and technical terms</li>
+<li>Improved visible-text handling so alternate OCR readings can help AI enhancement choose the right spelling</li>
 <p>### Bug Fixes</p>
-<li>Fixed toast notifications so they stay centered and only use as much width as they need</li>
+<li>Fixed onboarding so downloading a model does not finish setup before you complete the guided dictation step</li>
+<li>Fixed the settings window close button so Whiskers stays available from the menu bar</li>
       ]]></description>
-      <pubDate>Thu, 23 Apr 2026 16:35:09 +0000</pubDate>
-      <sparkle:version>727</sparkle:version>
-      <sparkle:shortVersionString>0.8.45</sparkle:shortVersionString>
+      <pubDate>Wed, 29 Apr 2026 03:08:46 +0000</pubDate>
+      <sparkle:version>731</sparkle:version>
+      <sparkle:shortVersionString>0.8.46</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.45/Whiskers.zip"
-        length="15324515"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.46/Whiskers.zip"
+        length="17405345"
         type="application/zip"
-        sparkle:edSignature="C8KWbGJg+XcS3aVdHEFgfQAQVTK3DTcf//n88zh57ogIhxIfjq99t+4tmF5skJz3X5LSQGy6xOS4RTf3YMhOCw=="
+        sparkle:edSignature="E/0PiXzti4XUySOY0T+MrJ5oL1NALnxJ0UPOLZHy3PT0v8kBJLZGU4llzna1DFu/ET2eSsKorG6g4h9HUTmwBQ=="
       />
     </item>
   </channel>
