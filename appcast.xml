@@ -7,33 +7,29 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.46</title>
+      <title>Whiskers 0.8.47</title>
       <description><![CDATA[
-<h3>What's New in 0.8.46</h3>
-<p>### Local Whisper Models</p>
-<li>Improved local Whisper transcription reliability with a newer on-device runtime</li>
-<li>Added support for the large-v3-turbo Whisper model for stronger local transcription quality</li>
-<li>Improved local model validation so incomplete or changed model files are caught before dictation starts</li>
-<p>### Onboarding & Permissions</p>
-<li>Streamlined onboarding so setup starts with the required permissions and ends with a guided dictation test</li>
-<li>Added clearer permission recovery steps, including reveal-in-Finder help when macOS needs you to add Whiskers manually</li>
-<li>Improved the practice dictation step so successful inserted text is detected more reliably</li>
-<p>### Screen Awareness</p>
-<li>Improved Screen Awareness matching for file names, code symbols, API routes, issue numbers, and technical terms</li>
-<li>Improved visible-text handling so alternate OCR readings can help AI enhancement choose the right spelling</li>
-<p>### Bug Fixes</p>
-<li>Fixed onboarding so downloading a model does not finish setup before you complete the guided dictation step</li>
-<li>Fixed the settings window close button so Whiskers stays available from the menu bar</li>
+<h3>What's New in 0.8.47</h3>
+<p>### AI Enhancement Models</p>
+<li>Added recommended model cards so you can quickly choose fast, low-cost, or higher-quality enhancement options</li>
+<li>Added an All Models view with provider groups and search, making it easier to find and switch between supported cloud models</li>
+<li>Added custom provider setup for self-hosted or compatible AI services, with saved API key selection and flexible authentication options</li>
+<p>### API Keys & Cloud Transcription</p>
+<li>Improved API key management so each provider clearly shows which saved key is active</li>
+<li>Improved Cloud Transcription model selection with recommended models, setup prompts, and per-model key selection</li>
+<li>Made setup-required cloud models visible before you add a key, so you can compare options before connecting a provider</li>
+<p>### Recording HUD</p>
+<li>Fixed locked recording setup so cancel and finish controls appear as soon as hands-free recording is preparing</li>
       ]]></description>
-      <pubDate>Wed, 29 Apr 2026 03:08:46 +0000</pubDate>
-      <sparkle:version>731</sparkle:version>
-      <sparkle:shortVersionString>0.8.46</sparkle:shortVersionString>
+      <pubDate>Sat, 09 May 2026 06:14:10 +0000</pubDate>
+      <sparkle:version>736</sparkle:version>
+      <sparkle:shortVersionString>0.8.47</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.46/Whiskers.zip"
-        length="17405345"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.47/Whiskers.zip"
+        length="18183003"
         type="application/zip"
-        sparkle:edSignature="E/0PiXzti4XUySOY0T+MrJ5oL1NALnxJ0UPOLZHy3PT0v8kBJLZGU4llzna1DFu/ET2eSsKorG6g4h9HUTmwBQ=="
+        sparkle:edSignature="bUrC566TvudFuSnbrXIzjgQIvthyp+dki85R5GrvDnjD86SrseB/LV6hizR/YeLUjlDCNGs/rtjESu07Qw6iBA=="
       />
     </item>
   </channel>
