@@ -7,32 +7,25 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.48</title>
+      <title>Whiskers 0.8.49</title>
       <description><![CDATA[
-<h3>What's New in 0.8.48</h3>
-<p>### Recording Reliability</p>
-<li>Improved recording startup, cancellation, and hands-free controls so hotkey dictation responds more consistently</li>
-<li>Improved live cloud dictation finalization so longer recordings complete more reliably after speech ends</li>
-<p>### Bulk Transcription</p>
-<li>Improved bulk transcription cancellation so deleting an active video job stops processing sooner and continues with the remaining queue</li>
-<li>Improved waveform handling for large transcript histories to keep the app responsive over time</li>
-<p>### Privacy & Security</p>
-<li>Improved support logs by redacting sensitive details and sending a license fingerprint instead of the license key</li>
-<li>Strengthened cloud request protections for custom providers and built-in transcription services</li>
-<li>Fixed Gemini requests so API keys are no longer placed in the request URL</li>
-<p>### Bug Fixes</p>
-<li>Fixed toast notifications so short messages keep a usable minimum size</li>
-<li>Improved Dictionary row actions so edit and delete controls reveal cleanly on hover or keyboard focus</li>
+<h3>What's New in 0.8.49</h3>
+<p>### AI Enhancement Prompts</p>
+<li>Added always-visible enhancement prompts so you can choose or manage rewrite styles without first turning enhancement on</li>
+<li>Improved prompt ordering so your custom prompts appear first while built-in options stay in a consistent order</li>
+<p>### Settings</p>
+<li>Improved Settings consistency across API keys, microphone, license, support, permissions, and transcript views</li>
+<li>Improved API key row controls so edit and delete actions reveal more cleanly with hover and keyboard focus</li>
       ]]></description>
-      <pubDate>Sun, 10 May 2026 06:43:15 +0000</pubDate>
-      <sparkle:version>756</sparkle:version>
-      <sparkle:shortVersionString>0.8.48</sparkle:shortVersionString>
+      <pubDate>Wed, 13 May 2026 04:11:20 +0000</pubDate>
+      <sparkle:version>758</sparkle:version>
+      <sparkle:shortVersionString>0.8.49</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.48/Whiskers.zip"
-        length="18353842"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.49/Whiskers.zip"
+        length="18378497"
         type="application/zip"
-        sparkle:edSignature="K/d4viHudIMS9cvA9ftpsKZ4RzFepTHUqZWSsL4WABwa3JrbZWOCoBdFv/95zCPEQ1ZUwH8Q8vH5G2jaPct4BA=="
+        sparkle:edSignature="G1CTgHhE1aGQqLlEVCm8EQguKz8PBDQRK1UoWt1Ah2x96ILl/vDtp7UWeekPr4XhOJEbgl+xkWJqfS0DycIfAQ=="
       />
     </item>
   </channel>
