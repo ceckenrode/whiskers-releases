@@ -27,15 +27,15 @@
 <li>Improved network trust checks for cloud services, promotions, licensing, and support requests</li>
 <li>Improved license and quota checks so dictation and bulk transcription limits are applied more consistently</li>
       ]]></description>
-      <pubDate>Fri, 15 May 2026 07:51:50 +0000</pubDate>
+      <pubDate>Fri, 15 May 2026 08:47:11 +0000</pubDate>
       <sparkle:version>769</sparkle:version>
       <sparkle:shortVersionString>0.8.50</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.50/Whiskers.zip"
-        length="18597045"
+        length="18596220"
         type="application/zip"
-        sparkle:edSignature="09XnTsUcE2SBlxJtgyfa/ZIjOIfEXpt/HxItW2doS43OZFwBbzQrL4WOdq/XoW0XsoJALn06PTkV8NkQbzIoAg=="
+        sparkle:edSignature="JWXUM3qz4UzuKWEAFBLiAZyVsf1HuOhp3sM0hypyWtcj9FRaCKYi25H6ebcsJp70v0P0t41AqbTv14mc3/lqCQ=="
       />
     </item>
   </channel>
