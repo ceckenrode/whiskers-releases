@@ -7,25 +7,35 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.49</title>
+      <title>Whiskers 0.8.50</title>
       <description><![CDATA[
-<h3>What's New in 0.8.49</h3>
-<p>### AI Enhancement Prompts</p>
-<li>Added always-visible enhancement prompts so you can choose or manage rewrite styles without first turning enhancement on</li>
-<li>Improved prompt ordering so your custom prompts appear first while built-in options stay in a consistent order</li>
-<p>### Settings</p>
-<li>Improved Settings consistency across API keys, microphone, license, support, permissions, and transcript views</li>
-<li>Improved API key row controls so edit and delete actions reveal more cleanly with hover and keyboard focus</li>
+<h3>What's New in 0.8.50</h3>
+<p>### Recording Reliability</p>
+<li>Improved recording startup and recovery when audio devices change, Bluetooth microphones wake slowly, or your Mac returns from sleep</li>
+<li>Improved live dictation finalization so longer cloud dictation sessions finish more consistently</li>
+<li>Improved text insertion after dictation so completed transcripts are pasted more reliably</li>
+<p>### Transcription & Models</p>
+<li>Improved local and cloud transcription handling so Whiskers chooses ready models more consistently</li>
+<li>Improved model download and validation reliability to reduce setup and startup issues</li>
+<li>Improved bulk transcription handling for longer files, timestamps, and completed-result actions</li>
+<p>### Settings & Setup</p>
+<li>Fixed recording shortcut setup so bare Fn hotkeys are saved correctly</li>
+<li>Improved model and AI settings flows so provider setup, model choices, and saved keys behave more consistently</li>
+<li>Improved onboarding and permission recovery so setup status reflects what Whiskers can actually use</li>
+<p>### Privacy, Support & Security</p>
+<li>Improved support diagnostics with safer log exports, better attachment handling, and clearer privacy protections</li>
+<li>Improved network trust checks for cloud services, promotions, licensing, and support requests</li>
+<li>Improved license and quota checks so dictation and bulk transcription limits are applied more consistently</li>
       ]]></description>
-      <pubDate>Wed, 13 May 2026 04:11:20 +0000</pubDate>
-      <sparkle:version>758</sparkle:version>
-      <sparkle:shortVersionString>0.8.49</sparkle:shortVersionString>
+      <pubDate>Fri, 15 May 2026 07:51:50 +0000</pubDate>
+      <sparkle:version>769</sparkle:version>
+      <sparkle:shortVersionString>0.8.50</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.49/Whiskers.zip"
-        length="18378497"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.50/Whiskers.zip"
+        length="18597045"
         type="application/zip"
-        sparkle:edSignature="G1CTgHhE1aGQqLlEVCm8EQguKz8PBDQRK1UoWt1Ah2x96ILl/vDtp7UWeekPr4XhOJEbgl+xkWJqfS0DycIfAQ=="
+        sparkle:edSignature="09XnTsUcE2SBlxJtgyfa/ZIjOIfEXpt/HxItW2doS43OZFwBbzQrL4WOdq/XoW0XsoJALn06PTkV8NkQbzIoAg=="
       />
     </item>
   </channel>
