@@ -7,35 +7,30 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.50</title>
+      <title>Whiskers 0.8.51</title>
       <description><![CDATA[
-<h3>What's New in 0.8.50</h3>
+<h3>What's New in 0.8.51</h3>
 <p>### Recording Reliability</p>
-<li>Improved recording startup and recovery when audio devices change, Bluetooth microphones wake slowly, or your Mac returns from sleep</li>
-<li>Improved live dictation finalization so longer cloud dictation sessions finish more consistently</li>
-<li>Improved text insertion after dictation so completed transcripts are pasted more reliably</li>
-<p>### Transcription & Models</p>
-<li>Improved local and cloud transcription handling so Whiskers chooses ready models more consistently</li>
-<li>Improved model download and validation reliability to reduce setup and startup issues</li>
-<li>Improved bulk transcription handling for longer files, timestamps, and completed-result actions</li>
-<p>### Settings & Setup</p>
-<li>Fixed recording shortcut setup so bare Fn hotkeys are saved correctly</li>
-<li>Improved model and AI settings flows so provider setup, model choices, and saved keys behave more consistently</li>
-<li>Improved onboarding and permission recovery so setup status reflects what Whiskers can actually use</li>
-<p>### Privacy, Support & Security</p>
-<li>Improved support diagnostics with safer log exports, better attachment handling, and clearer privacy protections</li>
-<li>Improved network trust checks for cloud services, promotions, licensing, and support requests</li>
-<li>Improved license and quota checks so dictation and bulk transcription limits are applied more consistently</li>
+<li>Improved Bluetooth microphone startup so recording begins on the first usable audio instead of waiting for the start cue to finish</li>
+<li>Improved Bluetooth audio conditioning so quiet speech is boosted more naturally without over-amplifying silence or loud speech</li>
+<p>### Transcription Performance</p>
+<li>Reduced transcription overhead during recording so dictation stays more responsive</li>
+<li>Reduced memory growth in local and bulk transcription so longer sessions and model switches stay more stable</li>
+<p>### App Reliability</p>
+<li>Improved transcript, licensing, support, and network checks so Whiskers keeps app state more consistent across launches</li>
+<li>Improved background update checks so automatic update preferences work more consistently</li>
+<p>### Settings</p>
+<li>Improved AI Enhancement settings layout with cleaner prompt cards and more consistent spacing across settings</li>
       ]]></description>
-      <pubDate>Fri, 15 May 2026 08:47:11 +0000</pubDate>
-      <sparkle:version>769</sparkle:version>
-      <sparkle:shortVersionString>0.8.50</sparkle:shortVersionString>
+      <pubDate>Sat, 16 May 2026 06:49:36 +0000</pubDate>
+      <sparkle:version>782</sparkle:version>
+      <sparkle:shortVersionString>0.8.51</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.50/Whiskers.zip"
-        length="18596220"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.51/Whiskers.zip"
+        length="19041051"
         type="application/zip"
-        sparkle:edSignature="JWXUM3qz4UzuKWEAFBLiAZyVsf1HuOhp3sM0hypyWtcj9FRaCKYi25H6ebcsJp70v0P0t41AqbTv14mc3/lqCQ=="
+        sparkle:edSignature="8vsrlgki5/vrUkTFbo+pxlju4gMmp7BQTG1fTz+fHahG6fKAwRejC1KUmCvbEip7T4e324uLypRqLY3bUZuCBQ=="
       />
     </item>
   </channel>
