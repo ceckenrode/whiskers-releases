@@ -7,26 +7,31 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.52</title>
+      <title>Whiskers 0.8.53</title>
       <description><![CDATA[
-<h3>What's New in 0.8.52</h3>
-<p>### Local Dictation Reliability</p>
-<li>Improved local dictation on low battery so Whiskers avoids background model loading when your Mac is unplugged and nearly out of power</li>
-<li>Added clearer feedback when local dictation cannot finish because your Mac is under power, heat, or memory pressure</li>
+<h3>What's New in 0.8.53</h3>
 <p>### File Transcription</p>
-<li>Renamed Bulk Transcription to File Transcription throughout the app for clearer wording</li>
-<p>### Hotkeys</p>
-<li>Fixed double-tap and hold behavior so locked dictation responds more consistently</li>
+<li>Improved file transcription for long audio and video files so large jobs use less memory and are less likely to fail</li>
+<li>Improved cloud file transcription so long files are processed in smaller pieces instead of waiting on one large upload</li>
+<li>Improved file transcription recovery so interrupted, missing, or partially completed jobs are cleaned up more reliably</li>
+<p>### Recording Reliability</p>
+<li>Improved Bluetooth microphone startup so recording waits for stable audio before starting, reducing false starts from noisy or waking devices</li>
+<li>Improved live dictation responsiveness by reducing background work during launch and recording</li>
+<p>### Setup & Support</p>
+<li>Added smarter API key naming and direct setup guidance when adding provider keys</li>
+<li>Improved support diagnostics so audio interruptions are easier to diagnose without including recordings or transcript text</li>
+<p>### Bug Fixes</p>
+<li>Fixed a local model preparation message that could appear unnecessarily in the recording HUD</li>
       ]]></description>
-      <pubDate>Mon, 18 May 2026 06:47:12 +0000</pubDate>
-      <sparkle:version>786</sparkle:version>
-      <sparkle:shortVersionString>0.8.52</sparkle:shortVersionString>
+      <pubDate>Wed, 20 May 2026 03:47:17 +0000</pubDate>
+      <sparkle:version>796</sparkle:version>
+      <sparkle:shortVersionString>0.8.53</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.52/Whiskers.zip"
-        length="19127487"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.53/Whiskers.zip"
+        length="19258483"
         type="application/zip"
-        sparkle:edSignature="izsXNDCJzjgDkp9fZQUZHP1eiQU3+9YZ7nSYEALW91JJ5F9uPX2/l39yTK4oB/ENGsyWxCgOwW27W3mPmLlRDw=="
+        sparkle:edSignature="qi5EJ9DEHPqV+LlLaCAYsc5sv7ax41ZdXvgPq13XLw0YDxmXPBXGfskjVlkvieor5fnsRSbtAHFG9j8FVxibDQ=="
       />
     </item>
   </channel>
