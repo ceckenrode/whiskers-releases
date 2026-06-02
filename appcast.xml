@@ -7,25 +7,24 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.54</title>
+      <title>Whiskers 0.8.55</title>
       <description><![CDATA[
-<h3>What's New in 0.8.54</h3>
-<p>### Menu Bar Controls</p>
-<li>Added quick menu controls for AI Enhancement, Screen Awareness, enhancement prompts, enhancement models, and transcription models so common dictation settings are easier to change</li>
-<p>### Recording Reliability</p>
-<li>Fixed a hands-free recording timing issue so double-tap or toggle recording starts the HUD more consistently</li>
-<p>### Audio Cues</p>
-<li>Improved recording cues so Whiskers lowers system audio relative to your current volume instead of making quiet Macs louder</li>
+<h3>What's New in 0.8.55</h3>
+<p>### Reliability & Diagnostics</p>
+<li>Improved startup reliability by making recording and hotkey issues easier for Whiskers to detect and recover from</li>
+<li>Added clearer internal diagnostics around recording readiness, local model status, and hotkey startup so setup-related problems are easier to catch before they interrupt dictation</li>
+<p>### General Settings</p>
+<li>Added installed version and build details to General Settings so it is easier to confirm exactly which Whiskers build you are running</li>
       ]]></description>
-      <pubDate>Mon, 25 May 2026 03:24:42 +0000</pubDate>
-      <sparkle:version>799</sparkle:version>
-      <sparkle:shortVersionString>0.8.54</sparkle:shortVersionString>
+      <pubDate>Tue, 02 Jun 2026 18:54:37 +0000</pubDate>
+      <sparkle:version>802</sparkle:version>
+      <sparkle:shortVersionString>0.8.55</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.54/Whiskers.zip"
-        length="19344266"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.55/Whiskers.zip"
+        length="19358870"
         type="application/zip"
-        sparkle:edSignature="/0npetMBA54ing5MjZH3TfI3gLKyewmwoq93+V0NpDEDZxM/DJJkWzzg1Z1M8MpXCE3CXEyYGo3vgM0OvX9kAg=="
+        sparkle:edSignature="qKrrLMZWOCWJPZneLjqDIzs98FCZ8bnX1c+v5b1ieFMuSyF8v9gOsG8LC34askJLk6LHTDvVGZRBrbHaMfjzBQ=="
       />
     </item>
   </channel>
