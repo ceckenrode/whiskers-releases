@@ -19,15 +19,15 @@
 <p>### Improvements</p>
 <li>Added clearer internal diagnostics for network trust, licensing, settings deep links, and transcription paths to make support and troubleshooting more reliable</li>
       ]]></description>
-      <pubDate>Wed, 24 Jun 2026 19:40:52 +0000</pubDate>
-      <sparkle:version>869</sparkle:version>
+      <pubDate>Wed, 24 Jun 2026 19:58:40 +0000</pubDate>
+      <sparkle:version>870</sparkle:version>
       <sparkle:shortVersionString>0.8.59</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.59/Whiskers.zip"
-        length="20266074"
+        length="20266186"
         type="application/zip"
-        sparkle:edSignature="h8mDUlIgv+Ng8m5NKVmJ9ZcOlkdLzvA1e9fYZibEFEF34C2d2wVeQzjBp/wcxyRHVai7NRthwEcUmdozzGqfBg=="
+        sparkle:edSignature="PLhLjFnECbfaNXdNeZZy9D/syE5sN6LOLgCS1dYASsbgPoqFNGSBl042VjjrKzfbYexPt29cm16T8OiDaKLLCg=="
       />
     </item>
   </channel>
