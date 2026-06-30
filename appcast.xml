@@ -7,32 +7,26 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.60</title>
+      <title>Whiskers 0.8.61</title>
       <description><![CDATA[
-<h3>What's New in 0.8.60</h3>
-<p>### File Transcription</p>
-<li>Improved File Transcription startup so saved queues and results are ready sooner when you open the app</li>
-<li>Improved model and API key loading so file transcription settings stay more consistent when the app starts</li>
-<p>### Cloud Transcription</p>
-<li>Improved cloud model key selection by keeping the key picker with the selected provider</li>
-<li>Improved cloud model discovery so switching between API keys is less likely to show stale model options</li>
-<li>Improved live cloud dictation so longer stretches of speech are sent in steadier chunks</li>
-<p>### Settings & Setup</p>
-<li>Fixed installed version details in General Settings so they refresh after an app update without reopening Settings</li>
-<li>Improved permission and shortcut setup messages so recovery steps are clearer when macOS access needs attention</li>
-<p>### Support & History</p>
-<li>Improved transcript history loading with clearer progress and retry behavior when loading more transcripts</li>
-<li>Improved support diagnostics by tightening attachment limits and redacting more device identifiers</li>
+<h3>What's New in 0.8.61</h3>
+<p>### Updates</p>
+<li>Added a clearer Restart to Install state when an update has downloaded and is waiting for Whiskers to restart</li>
+<li>Improved General Settings and Dock badges so pending installs stay visible and are described as ready to install</li>
+<p>### Settings Recovery</p>
+<li>Improved settings recovery so saved model, API key, and AI Enhancement choices are restored if macOS has them in an older preferences location</li>
+<p>### Bug Fixes</p>
+<li>Fixed a case where choosing to install an update later could make the ready-to-install update disappear</li>
       ]]></description>
-      <pubDate>Tue, 30 Jun 2026 18:56:22 +0000</pubDate>
-      <sparkle:version>894</sparkle:version>
-      <sparkle:shortVersionString>0.8.60</sparkle:shortVersionString>
+      <pubDate>Tue, 30 Jun 2026 20:50:27 +0000</pubDate>
+      <sparkle:version>896</sparkle:version>
+      <sparkle:shortVersionString>0.8.61</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.60/Whiskers.zip"
-        length="20283516"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.61/Whiskers.zip"
+        length="20300378"
         type="application/zip"
-        sparkle:edSignature="87nzY1hnUfe5p0LO0aKkY9/OVFeRTYPoOnrlbUAk41n9PRBaKHzBql8Ga+LJ+OIJu16nrivleoFr94cOtqwBCA=="
+        sparkle:edSignature="rF5zooGXaG2cl8wtCDyQKr+H4g0xLMjzH/h/LpOeDX703U/COe6cqAtfXGmAXh83c/lwwiDRzC2QAtv1KBiEDw=="
       />
     </item>
   </channel>
