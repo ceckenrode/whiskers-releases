@@ -7,27 +7,32 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.59</title>
+      <title>Whiskers 0.8.60</title>
       <description><![CDATA[
-<h3>What's New in 0.8.59</h3>
-<p>### Dictation Reliability</p>
-<li>Improved live cloud dictation so slower session startup is less likely to force an unnecessary full-session fallback</li>
-<li>Improved audio capture handling during Bluetooth jitter and queue pressure so longer dictation sessions stay more dependable</li>
-<p>### Recovery & Setup</p>
-<li>Improved model, permission, and onboarding recovery paths so setup issues are easier to recover from when something goes wrong</li>
-<li>Improved cloud transcription and update checks so configuration and release problems are easier for Whiskers to detect</li>
-<p>### Improvements</p>
-<li>Added clearer internal diagnostics for network trust, licensing, settings deep links, and transcription paths to make support and troubleshooting more reliable</li>
+<h3>What's New in 0.8.60</h3>
+<p>### File Transcription</p>
+<li>Improved File Transcription startup so saved queues and results are ready sooner when you open the app</li>
+<li>Improved model and API key loading so file transcription settings stay more consistent when the app starts</li>
+<p>### Cloud Transcription</p>
+<li>Improved cloud model key selection by keeping the key picker with the selected provider</li>
+<li>Improved cloud model discovery so switching between API keys is less likely to show stale model options</li>
+<li>Improved live cloud dictation so longer stretches of speech are sent in steadier chunks</li>
+<p>### Settings & Setup</p>
+<li>Fixed installed version details in General Settings so they refresh after an app update without reopening Settings</li>
+<li>Improved permission and shortcut setup messages so recovery steps are clearer when macOS access needs attention</li>
+<p>### Support & History</p>
+<li>Improved transcript history loading with clearer progress and retry behavior when loading more transcripts</li>
+<li>Improved support diagnostics by tightening attachment limits and redacting more device identifiers</li>
       ]]></description>
-      <pubDate>Wed, 24 Jun 2026 19:58:40 +0000</pubDate>
-      <sparkle:version>870</sparkle:version>
-      <sparkle:shortVersionString>0.8.59</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <pubDate>Tue, 30 Jun 2026 18:56:22 +0000</pubDate>
+      <sparkle:version>894</sparkle:version>
+      <sparkle:shortVersionString>0.8.60</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.59/Whiskers.zip"
-        length="20266186"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.60/Whiskers.zip"
+        length="20283516"
         type="application/zip"
-        sparkle:edSignature="PLhLjFnECbfaNXdNeZZy9D/syE5sN6LOLgCS1dYASsbgPoqFNGSBl042VjjrKzfbYexPt29cm16T8OiDaKLLCg=="
+        sparkle:edSignature="87nzY1hnUfe5p0LO0aKkY9/OVFeRTYPoOnrlbUAk41n9PRBaKHzBql8Ga+LJ+OIJu16nrivleoFr94cOtqwBCA=="
       />
     </item>
   </channel>
