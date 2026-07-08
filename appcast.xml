@@ -7,26 +7,34 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.61</title>
+      <title>Whiskers 0.8.62</title>
       <description><![CDATA[
-<h3>What's New in 0.8.61</h3>
-<p>### Updates</p>
-<li>Added a clearer Restart to Install state when an update has downloaded and is waiting for Whiskers to restart</li>
-<li>Improved General Settings and Dock badges so pending installs stay visible and are described as ready to install</li>
-<p>### Settings Recovery</p>
-<li>Improved settings recovery so saved model, API key, and AI Enhancement choices are restored if macOS has them in an older preferences location</li>
+<h3>What's New in 0.8.62</h3>
+<p>### Dictation Quality</p>
+<li>Improved local dictation and AI Enhancement so screen context and custom vocabulary help preserve names, code terms, filenames, and specialized wording</li>
+<li>Improved Bluetooth and AirPods recording so quiet speech, pauses, and device changes are less likely to clip or drop words</li>
+<li>Improved live cloud dictation so longer sessions finish more reliably instead of getting stuck in processing</li>
+<p>### Home & Playback</p>
+<li>Redesigned transcript history into a clearer day-by-day timeline with smoother row expansion and playback controls</li>
+<li>Improved transcript audio playback with a clearer waveform playhead and better alignment</li>
+<p>### Setup & Settings</p>
+<li>Refreshed settings, onboarding, and HUD controls with clearer focus, hover, and accessibility states</li>
+<li>Added live microphone level feedback in Microphone Settings and turned voice activity detection on by default for cleaner recordings</li>
+<li>Added safer model deletion confirmation and clearer file transcription retry, cancel, and unsupported-file handling</li>
 <p>### Bug Fixes</p>
-<li>Fixed a case where choosing to install an update later could make the ready-to-install update disappear</li>
+<li>Fixed file transcription access messaging so free users are guided by the weekly word quota instead of a separate daily file limit</li>
+<li>Fixed clipboard restore and dictation cancellation edge cases that could leave text insertion or recording state inconsistent</li>
+<li>Fixed transcript loading failures so Home can show an error with a retry option</li>
       ]]></description>
-      <pubDate>Tue, 30 Jun 2026 20:50:27 +0000</pubDate>
-      <sparkle:version>896</sparkle:version>
-      <sparkle:shortVersionString>0.8.61</sparkle:shortVersionString>
+      <pubDate>Wed, 08 Jul 2026 05:23:41 +0000</pubDate>
+      <sparkle:version>927</sparkle:version>
+      <sparkle:shortVersionString>0.8.62</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.61/Whiskers.zip"
-        length="20300378"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.62/Whiskers.zip"
+        length="20908716"
         type="application/zip"
-        sparkle:edSignature="rF5zooGXaG2cl8wtCDyQKr+H4g0xLMjzH/h/LpOeDX703U/COe6cqAtfXGmAXh83c/lwwiDRzC2QAtv1KBiEDw=="
+        sparkle:edSignature="cI/G9sTv6md8yCsW7zdp7XoU2Gp9qy9DkPUcsDRhCspYID2dRT21+tOlJIsWsWbb5xW5AzxY6XRZYzYHylLyCA=="
       />
     </item>
   </channel>
