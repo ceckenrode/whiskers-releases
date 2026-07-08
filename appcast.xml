@@ -26,15 +26,15 @@
 <li>Fixed clipboard restore and dictation cancellation edge cases that could leave text insertion or recording state inconsistent</li>
 <li>Fixed transcript loading failures so Home can show an error with a retry option</li>
       ]]></description>
-      <pubDate>Wed, 08 Jul 2026 05:23:41 +0000</pubDate>
-      <sparkle:version>927</sparkle:version>
+      <pubDate>Wed, 08 Jul 2026 06:00:27 +0000</pubDate>
+      <sparkle:version>928</sparkle:version>
       <sparkle:shortVersionString>0.8.62</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.62/Whiskers.zip"
-        length="20908716"
+        length="20911212"
         type="application/zip"
-        sparkle:edSignature="cI/G9sTv6md8yCsW7zdp7XoU2Gp9qy9DkPUcsDRhCspYID2dRT21+tOlJIsWsWbb5xW5AzxY6XRZYzYHylLyCA=="
+        sparkle:edSignature="bT9lKBP44hXvYnO/ot8Owng3xm9J72HP4GTdIAOSkh34zdrMnnsizfk49G9Vi2pWrmHu2eaGhMKu20kdGDPbCA=="
       />
     </item>
   </channel>
