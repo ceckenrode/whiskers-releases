@@ -7,34 +7,31 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.62</title>
+      <title>Whiskers 0.8.63</title>
       <description><![CDATA[
-<h3>What's New in 0.8.62</h3>
-<p>### Dictation Quality</p>
-<li>Improved local dictation and AI Enhancement so screen context and custom vocabulary help preserve names, code terms, filenames, and specialized wording</li>
-<li>Improved Bluetooth and AirPods recording so quiet speech, pauses, and device changes are less likely to clip or drop words</li>
-<li>Improved live cloud dictation so longer sessions finish more reliably instead of getting stuck in processing</li>
-<p>### Home & Playback</p>
-<li>Redesigned transcript history into a clearer day-by-day timeline with smoother row expansion and playback controls</li>
-<li>Improved transcript audio playback with a clearer waveform playhead and better alignment</li>
-<p>### Setup & Settings</p>
-<li>Refreshed settings, onboarding, and HUD controls with clearer focus, hover, and accessibility states</li>
-<li>Added live microphone level feedback in Microphone Settings and turned voice activity detection on by default for cleaner recordings</li>
-<li>Added safer model deletion confirmation and clearer file transcription retry, cancel, and unsupported-file handling</li>
-<p>### Bug Fixes</p>
-<li>Fixed file transcription access messaging so free users are guided by the weekly word quota instead of a separate daily file limit</li>
-<li>Fixed clipboard restore and dictation cancellation edge cases that could leave text insertion or recording state inconsistent</li>
-<li>Fixed transcript loading failures so Home can show an error with a retry option</li>
+<h3>What's New in 0.8.63</h3>
+<p>### Audio Capture & Studio</p>
+<li>Added Audio Capture so you can record audio from a selected app and send it straight to Studio for transcription</li>
+<li>Redesigned Studio with a unified place to record app audio, import files, and manage transcript jobs</li>
+<li>Added clearer model capability indicators so you can see when features such as speaker labels are available</li>
+<p>### Transcript Chat</p>
+<li>Added transcript chat for asking questions about a recording</li>
+<li>Added contextual transcript actions so suggested edits can be applied directly when appropriate</li>
+<p>### Speaker Labels</p>
+<li>Improved speaker-label handling for compatible transcription services</li>
+<li>Preserved corrected speaker turns when using AI Enhancement</li>
+<p>### Reliability</p>
+<li>Improved recovery for interrupted app-audio capture and prevented empty recordings from entering the transcription queue</li>
       ]]></description>
-      <pubDate>Wed, 08 Jul 2026 06:00:27 +0000</pubDate>
-      <sparkle:version>928</sparkle:version>
-      <sparkle:shortVersionString>0.8.62</sparkle:shortVersionString>
+      <pubDate>Fri, 17 Jul 2026 01:08:13 +0000</pubDate>
+      <sparkle:version>970</sparkle:version>
+      <sparkle:shortVersionString>0.8.63</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.62/Whiskers.zip"
-        length="20911212"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.63/Whiskers.zip"
+        length="23563519"
         type="application/zip"
-        sparkle:edSignature="bT9lKBP44hXvYnO/ot8Owng3xm9J72HP4GTdIAOSkh34zdrMnnsizfk49G9Vi2pWrmHu2eaGhMKu20kdGDPbCA=="
+        sparkle:edSignature="qUfHTa5yfkuu2kvx50xNhbli8kFntEkHT0xt18AKSZbC8jyFnSuWlNZ1b7PhqaaPoki1N6JvWtzND/NdXtysDg=="
       />
     </item>
   </channel>
