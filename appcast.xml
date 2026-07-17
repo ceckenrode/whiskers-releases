@@ -23,15 +23,15 @@
 <p>### Reliability</p>
 <li>Improved recovery for interrupted app-audio capture and prevented empty recordings from entering the transcription queue</li>
       ]]></description>
-      <pubDate>Fri, 17 Jul 2026 01:08:13 +0000</pubDate>
-      <sparkle:version>970</sparkle:version>
+      <pubDate>Fri, 17 Jul 2026 01:48:32 +0000</pubDate>
+      <sparkle:version>971</sparkle:version>
       <sparkle:shortVersionString>0.8.63</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.63/Whiskers.zip"
-        length="23563519"
+        length="23571791"
         type="application/zip"
-        sparkle:edSignature="qUfHTa5yfkuu2kvx50xNhbli8kFntEkHT0xt18AKSZbC8jyFnSuWlNZ1b7PhqaaPoki1N6JvWtzND/NdXtysDg=="
+        sparkle:edSignature="bEzO4FVt4QuSYEW70H/XeTg3pa3y5ZNYscmRWIs8m/CpNHBXDeGgsxLXNOokJGrki4+QD1pvIVjseAdzR0xEDQ=="
       />
     </item>
   </channel>
