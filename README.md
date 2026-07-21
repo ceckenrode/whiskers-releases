@@ -1,7 +1,7 @@
 <!-- markdownlint-disable MD013 MD033 MD041 -->
 
 <p align="center">
-  <img src="assets/whiskers-hero.svg" width="100%" alt="Whiskers — Talk. It's typed. Native, local-first dictation for macOS.">
+  <img src="assets/whiskers-hero.svg" width="100%" alt="Whiskers — Talk. It's typed. Native dictation with local models, cloud transcription, and your choice of LLM.">
 </p>
 
 <p align="center">
@@ -12,8 +12,8 @@
 </p>
 
 <p align="center">
-  <strong>Native voice dictation that turns speech into text anywhere on your Mac.</strong><br>
-  Hold a shortcut, talk, and release. Whiskers transcribes your words and places them at your cursor.
+  <strong>Native voice dictation with local models, high-accuracy cloud transcription, and your choice of LLM.</strong><br>
+  Hold a shortcut, talk, and release. Whiskers turns speech into polished text anywhere on your Mac.
 </p>
 
 <p align="center">
@@ -31,13 +31,15 @@
 
 Whiskers is a native macOS menu bar app for people who can say an idea faster than they can type it. It works in the apps you already use—email, chat, documents, issue trackers, code editors, and anywhere else macOS gives you a text cursor.
 
+It is **not a local-only dictation app**. Whiskers lets you choose the best engine for each job: run speech models privately on your Mac, bring your own API key for high-accuracy cloud transcription, and connect the LLM you prefer for cleanup, rewriting, and transcript chat.
+
 The everyday workflow is intentionally small:
 
 | 1. Hold | 2. Speak | 3. Release |
 | :---: | :---: | :---: |
 | Press your dictation shortcut from any app. | Talk naturally while the compact recording HUD follows along. | Whiskers transcribes and pastes the result where you were typing. |
 
-Behind that simple interaction is a flexible transcription workspace. You can keep speech processing on your Mac, connect a cloud provider when you prefer one, optionally polish a transcript with AI, or bring longer recordings into Studio for review and export.
+Behind that simple interaction is a flexible transcription platform. You can switch between on-device and hosted speech models, enhance output with virtually any LLM, or bring longer recordings into Studio to review, search, chat with, and export them.
 
 ## The full product, not just the hotkey
 
@@ -46,7 +48,7 @@ Behind that simple interaction is a flexible transcription workspace. You can ke
 Whiskers lives in the menu bar and stays out of the way until you need it. Use the default Function key or choose your own global shortcut, record with push-to-talk, or switch into lock mode for longer hands-free thoughts.
 
 - **Paste into any app.** Dictate into Mail, Slack, Notes, a browser, an IDE, or any other Mac app with a text field.
-- **Choose speed, language, and privacy.** Switch between lightweight local models, larger multilingual models, and optional cloud transcription.
+- **Choose speed, language, accuracy, and privacy.** Switch between lightweight local models, multilingual Whisper models, Deepgram Nova, hosted Whisper Large V3, and other cloud options.
 - **Teach it your language.** Custom vocabulary improves names, brands, acronyms, libraries, and domain-specific terminology.
 - **Turn phrases into complete text.** Snippets expand spoken triggers into addresses, signatures, templates, and other text you use repeatedly.
 - **Never lose the useful part.** Search local transcript history and copy or reuse something you said earlier.
@@ -60,7 +62,7 @@ Whiskers can also:
 - use **Screen Awareness** to recognize the names, code symbols, and terminology visible in your current work;
 - rewrite **selected text in place** from a spoken instruction instead of starting a new dictation;
 - preserve both the raw and enhanced versions in history;
-- connect to OpenAI, Anthropic, Google, Groq, OpenRouter, Together, or a custom compatible endpoint using your own credentials.
+- connect to OpenAI, Anthropic, Google, Groq, OpenRouter, Together, or any OpenAI-compatible LLM—including self-hosted endpoints—using your own credentials.
 
 Screen Awareness extracts relevant text, app, and window context. It never sends a screenshot image to the AI provider.
 
@@ -73,20 +75,29 @@ Screen Awareness extracts relevant text, app, and window context. It never sends
 - Choose a local or cloud model and a specific language, or let Whiskers detect the language for you.
 - Review the result alongside waveform playback that follows the transcript.
 - Add speaker labels with supported Deepgram models, rename people, and correct individual speaker turns.
-- Chat with a transcript, use saved prompts, and apply an AI response as the enhanced version without overwriting the corrected original.
+- Chat with a transcript using the LLM you choose, use saved prompts, and apply an AI response as the enhanced version without overwriting the corrected original.
 - Copy the result or export it as plain text and, when timestamp data is available, SRT subtitles.
 
 Long recordings are segmented around natural speech breaks, transcribed in manageable chunks, and reassembled into one result. Saved Studio conversations are encrypted on disk and removed with their recording session.
 
-## Model freedom without a forced cloud
+## Your models, your API keys, your choice
 
-Whiskers does not tie the product to one model vendor or one privacy tradeoff.
+Whiskers does not tie the product to one model vendor, one cloud, or one privacy tradeoff. Stay completely on-device, bring API keys for best-in-class hosted speech models, or mix both approaches depending on the work.
 
 | Job | Current options |
 | --- | --- |
 | **Local transcription** | Parakeet V2, multilingual Parakeet V3, and WhisperKit models from tiny through large-v3-turbo |
-| **Cloud transcription** | Groq, OpenAI, Deepgram, and Google Gemini |
-| **AI enhancement** | OpenAI, Anthropic, Google, Groq, OpenRouter, Together, and custom providers |
+| **Cloud transcription** | Deepgram Nova-3/Nova-2, hosted Whisper Large V3 and V3 Turbo through Groq, OpenAI transcription models, and Google Gemini |
+| **AI and transcript chat** | OpenAI, Anthropic, Google, Groq, OpenRouter, Together, custom OpenAI-compatible providers, and self-hosted endpoints |
+
+| What matters most | A strong option |
+| --- | --- |
+| **Maximum transcription accuracy** | Whisper Large V3, running locally or through a hosted provider |
+| **Fast hosted Whisper** | Whisper Large V3 Turbo through Groq |
+| **Low-latency speech and speaker labels** | Deepgram Nova-3 or Nova-2 |
+| **Privacy and offline access** | Parakeet or WhisperKit running entirely on your Mac |
+| **No local model download** | Bring an API key for a supported cloud transcription provider |
+| **Flexible transcript intelligence** | Use a built-in LLM provider or connect a custom compatible endpoint |
 
 | Mode | Where processing happens | Best for |
 | --- | --- | --- |

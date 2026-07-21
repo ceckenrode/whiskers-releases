@@ -1,6 +1,6 @@
 <svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
   <title id="title">Whiskers</title>
-  <desc id="desc">Talk. It's typed. Native, local-first dictation for macOS.</desc>
+  <desc id="desc">Talk. It's typed. Native dictation with local models, cloud transcription, and your choice of LLM.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
       <stop stop-color="#09090B"/>
@@ -50,20 +50,20 @@
 
     <text x="178" y="125" fill="#FAFAF9" font-family="Arial" font-size="34" font-weight="700" letter-spacing="-0.8">Whiskers</text>
     <text x="76" y="245" fill="#FAFAF9" font-family="Georgia" font-size="68" font-weight="400" letter-spacing="-2.2">Talk. It's typed.</text>
-    <text x="78" y="291" fill="#A1A1AA" font-family="Arial" font-size="23" font-weight="400">Native, local-first dictation for macOS.</text>
+    <text x="78" y="291" fill="#A1A1AA" font-family="Arial" font-size="23" font-weight="400">Local models. Cloud transcription. Your choice of LLM.</text>
 
     <g font-family="Arial" font-size="14" font-weight="600" letter-spacing="0.2">
       <rect x="77" y="336" width="112" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.1"/>
       <circle cx="96" cy="353" r="4" fill="#F59E0B"/>
-      <text x="108" y="358" fill="#D4D4D8">Local-first</text>
+      <text x="108" y="358" fill="#D4D4D8">On-device</text>
 
       <rect x="200" y="336" width="134" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.1"/>
       <circle cx="219" cy="353" r="4" fill="#E85A4F"/>
-      <text x="231" y="358" fill="#D4D4D8">Native macOS</text>
+      <text x="231" y="358" fill="#D4D4D8">Cloud API keys</text>
 
       <rect x="345" y="336" width="139" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.1"/>
       <circle cx="364" cy="353" r="4" fill="#EC4997"/>
-      <text x="376" y="358" fill="#D4D4D8">Apple Silicon</text>
+      <text x="376" y="358" fill="#D4D4D8">Any LLM</text>
     </g>
   </g>
   <rect x="0.5" y="0.5" width="1199" height="439" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.12"/>
