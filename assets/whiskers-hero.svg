@@ -1,0 +1,70 @@
+<svg width="1200" height="440" viewBox="0 0 1200 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Whiskers</title>
+  <desc id="desc">Talk. It's typed. Native, local-first dictation for macOS.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="440" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#09090B"/>
+      <stop offset="0.55" stop-color="#111116"/>
+      <stop offset="1" stop-color="#17131A"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="38" y1="376" x2="696" y2="37" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F59E0B"/>
+      <stop offset="0.46" stop-color="#E85A4F"/>
+      <stop offset="1" stop-color="#EC4997"/>
+    </linearGradient>
+    <radialGradient id="glowA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 40) rotate(34) scale(470 280)">
+      <stop stop-color="#E85A4F" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#E85A4F" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1120 420) rotate(-140) scale(500 250)">
+      <stop stop-color="#EC4997" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#EC4997" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="24" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="clip">
+      <rect width="1200" height="440" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#clip)">
+    <rect width="1200" height="440" rx="28" fill="url(#background)"/>
+    <rect width="1200" height="440" fill="url(#glowA)"/>
+    <rect width="1200" height="440" fill="url(#glowB)"/>
+
+    <g opacity="0.15">
+      <path d="M0 90H1200M0 175H1200M0 260H1200M0 345H1200" stroke="#FFFFFF" stroke-opacity="0.14"/>
+      <path d="M105 0V440M260 0V440M415 0V440M570 0V440M725 0V440M880 0V440M1035 0V440" stroke="#FFFFFF" stroke-opacity="0.09"/>
+    </g>
+
+    <g opacity="0.24" stroke="url(#brand)" stroke-width="3" stroke-linecap="round">
+      <path d="M742 219V191M760 219V171M778 219V202M796 219V146M814 219V181M832 219V126M850 219V165M868 219V90M886 219V154M904 219V115M922 219V174M940 219V137M958 219V193M976 219V158M994 219V202M1012 219V179M1030 219V198M1048 219V188M1066 219V207"/>
+      <path d="M742 223V251M760 223V271M778 223V240M796 223V296M814 223V261M832 223V316M850 223V277M868 223V352M886 223V288M904 223V327M922 223V268M940 223V305M958 223V249M976 223V284M994 223V240M1012 223V263M1030 223V244M1048 223V254M1066 223V235"/>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="74" y="72" width="82" height="82" rx="22" fill="#141419" stroke="#FFFFFF" stroke-opacity="0.1"/>
+      <text x="115" y="132" text-anchor="middle" fill="url(#brand)" font-family="Georgia" font-size="62" font-style="italic" font-weight="700">W</text>
+    </g>
+
+    <text x="178" y="125" fill="#FAFAF9" font-family="Arial" font-size="34" font-weight="700" letter-spacing="-0.8">Whiskers</text>
+    <text x="76" y="245" fill="#FAFAF9" font-family="Georgia" font-size="68" font-weight="400" letter-spacing="-2.2">Talk. It's typed.</text>
+    <text x="78" y="291" fill="#A1A1AA" font-family="Arial" font-size="23" font-weight="400">Native, local-first dictation for macOS.</text>
+
+    <g font-family="Arial" font-size="14" font-weight="600" letter-spacing="0.2">
+      <rect x="77" y="336" width="112" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.1"/>
+      <circle cx="96" cy="353" r="4" fill="#F59E0B"/>
+      <text x="108" y="358" fill="#D4D4D8">Local-first</text>
+
+      <rect x="200" y="336" width="134" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.1"/>
+      <circle cx="219" cy="353" r="4" fill="#E85A4F"/>
+      <text x="231" y="358" fill="#D4D4D8">Native macOS</text>
+
+      <rect x="345" y="336" width="139" height="34" rx="17" fill="#FFFFFF" fill-opacity="0.055" stroke="#FFFFFF" stroke-opacity="0.1"/>
+      <circle cx="364" cy="353" r="4" fill="#EC4997"/>
+      <text x="376" y="358" fill="#D4D4D8">Apple Silicon</text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="439" rx="27.5" stroke="#FFFFFF" stroke-opacity="0.12"/>
+</svg>
