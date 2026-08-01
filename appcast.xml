@@ -20,15 +20,15 @@
 <p>### AI Enhancement</p>
 <li>Updated the recommended enhancement model to GPT-4.1 Nano for faster, lower-cost transcript cleanup</li>
       ]]></description>
-      <pubDate>Sat, 01 Aug 2026 19:25:27 +0000</pubDate>
-      <sparkle:version>998</sparkle:version>
+      <pubDate>Sat, 01 Aug 2026 23:23:37 +0000</pubDate>
+      <sparkle:version>999</sparkle:version>
       <sparkle:shortVersionString>0.8.64</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.64/Whiskers.zip"
-        length="23392758"
+        length="23396976"
         type="application/zip"
-        sparkle:edSignature="FpT/Sk20F40VmAlgP5olJX3INNwocJqzuqB3Yp3mPqOMExiPNwj/123KK26kigednXcflAe2cA9QZEfOuZ9pAg=="
+        sparkle:edSignature="4yAwMi9KFHJLglj04u3so78ZEZLb9zRfUhJOrFV4TrrQPZLxPEkAwUiOLQ6ljgudxrpQqwA9QHLuriJtFbxSAA=="
       />
     </item>
   </channel>
