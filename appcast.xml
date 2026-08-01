@@ -7,31 +7,28 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.63</title>
+      <title>Whiskers 0.8.64</title>
       <description><![CDATA[
-<h3>What's New in 0.8.63</h3>
-<p>### Audio Capture & Studio</p>
-<li>Added Audio Capture so you can record audio from a selected app and send it straight to Studio for transcription</li>
-<li>Redesigned Studio with a unified place to record app audio, import files, and manage transcript jobs</li>
-<li>Added clearer model capability indicators so you can see when features such as speaker labels are available</li>
+<h3>What's New in 0.8.64</h3>
+<p>### Free Dictation & Transcription</p>
+<li>Made Whiskers free to use, including dictation and Audio Transcription, with no cumulative transcription quota or paid feature unlock</li>
+<li>Added a Whiskers Cloud preview in Settings for optional cloud access planned for the future</li>
+<p>### Audio Capture Reliability</p>
+<li>Improved capture recovery and shutdown handling so recordings are finalized safely when capture is interrupted or Whiskers quits</li>
 <p>### Transcript Chat</p>
-<li>Added transcript chat for asking questions about a recording</li>
-<li>Added contextual transcript actions so suggested edits can be applied directly when appropriate</li>
-<p>### Speaker Labels</p>
-<li>Improved speaker-label handling for compatible transcription services</li>
-<li>Preserved corrected speaker turns when using AI Enhancement</li>
-<p>### Reliability</p>
-<li>Improved recovery for interrupted app-audio capture and prevented empty recordings from entering the transcription queue</li>
+<li>Improved chat for speaker-labeled recordings so speaker names stay readable in responses and copied text</li>
+<p>### AI Enhancement</p>
+<li>Updated the recommended enhancement model to GPT-4.1 Nano for faster, lower-cost transcript cleanup</li>
       ]]></description>
-      <pubDate>Fri, 17 Jul 2026 01:48:32 +0000</pubDate>
-      <sparkle:version>971</sparkle:version>
-      <sparkle:shortVersionString>0.8.63</sparkle:shortVersionString>
+      <pubDate>Sat, 01 Aug 2026 19:25:27 +0000</pubDate>
+      <sparkle:version>998</sparkle:version>
+      <sparkle:shortVersionString>0.8.64</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.63/Whiskers.zip"
-        length="23571791"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.64/Whiskers.zip"
+        length="23392758"
         type="application/zip"
-        sparkle:edSignature="bEzO4FVt4QuSYEW70H/XeTg3pa3y5ZNYscmRWIs8m/CpNHBXDeGgsxLXNOokJGrki4+QD1pvIVjseAdzR0xEDQ=="
+        sparkle:edSignature="FpT/Sk20F40VmAlgP5olJX3INNwocJqzuqB3Yp3mPqOMExiPNwj/123KK26kigednXcflAe2cA9QZEfOuZ9pAg=="
       />
     </item>
   </channel>
