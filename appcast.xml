@@ -7,28 +7,22 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.64</title>
+      <title>Whiskers 0.8.65</title>
       <description><![CDATA[
-<h3>What's New in 0.8.64</h3>
-<p>### Free Dictation & Transcription</p>
-<li>Made Whiskers free to use, including dictation and Audio Transcription, with no cumulative transcription quota or paid feature unlock</li>
-<li>Added a Whiskers Cloud preview in Settings for optional cloud access planned for the future</li>
-<p>### Audio Capture Reliability</p>
-<li>Improved capture recovery and shutdown handling so recordings are finalized safely when capture is interrupted or Whiskers quits</li>
-<p>### Transcript Chat</p>
-<li>Improved chat for speaker-labeled recordings so speaker names stay readable in responses and copied text</li>
-<p>### AI Enhancement</p>
-<li>Updated the recommended enhancement model to GPT-4.1 Nano for faster, lower-cost transcript cleanup</li>
+<h3>What's New in 0.8.65</h3>
+<p>### Microphone Privacy & Reliability</p>
+<li>Fixed microphone level monitoring so Whiskers stops listening when you leave Microphone Settings, Studio, or onboarding</li>
+<li>Improved microphone resource cleanup when views are dismissed or replaced</li>
       ]]></description>
-      <pubDate>Sat, 01 Aug 2026 23:23:37 +0000</pubDate>
-      <sparkle:version>999</sparkle:version>
-      <sparkle:shortVersionString>0.8.64</sparkle:shortVersionString>
+      <pubDate>Sun, 30 Aug 2026 02:16:18 +0000</pubDate>
+      <sparkle:version>1000</sparkle:version>
+      <sparkle:shortVersionString>0.8.65</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.64/Whiskers.zip"
-        length="23396976"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.65/Whiskers.zip"
+        length="23392310"
         type="application/zip"
-        sparkle:edSignature="4yAwMi9KFHJLglj04u3so78ZEZLb9zRfUhJOrFV4TrrQPZLxPEkAwUiOLQ6ljgudxrpQqwA9QHLuriJtFbxSAA=="
+        sparkle:edSignature="AewcqpC27OT/9ARtH4XTLyjHlmupmfuaT5C5Uf2TEFuaCkZWjmZeDF/1lj7JNMJUSzZP6dp34ZCjorqKu3qqDg=="
       />
     </item>
   </channel>
