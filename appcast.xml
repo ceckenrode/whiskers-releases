@@ -7,22 +7,47 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.65</title>
+      <title>Whiskers 0.8.66</title>
       <description><![CDATA[
-<h3>What's New in 0.8.65</h3>
-<p>### Microphone Privacy & Reliability</p>
-<li>Fixed microphone level monitoring so Whiskers stops listening when you leave Microphone Settings, Studio, or onboarding</li>
-<li>Improved microphone resource cleanup when views are dismissed or replaced</li>
+<h3>What's New in 0.8.66</h3>
+<p>### Dictation Reliability</p>
+<li>Kept your recording when transcription fails or times out, so the dictation stays in History with a Retry option instead of being lost</li>
+<li>Transcribed what was captured when the microphone drops out mid-dictation, with a notice that some audio may be missing</li>
+<li>Changed ESC during processing to cancel only the paste while still saving the dictation to History</li>
+<li>Kept your chosen microphone when it is unplugged, using another mic until it reconnects and showing it as not connected in the picker</li>
+<li>Added microphone reconnect status to the recording HUD and VoiceOver</li>
+<p>### Faster Dictation & Transcription</p>
+<li>Reduced the delay before dictation starts and before transcription begins after you release the hotkey</li>
+<li>Sped up cloud transcription uploads by sending smaller compressed audio</li>
+<li>Scaled transcription timeouts with recording length so long dictations finish instead of timing out</li>
+<li>Added working cancel, resume, and byte-level progress for model downloads</li>
+<p>### Settings, Setup & Studio</p>
+<li>Grouped the Settings sidebar, added Cmd-, to open Settings, and added a status line, setup actions, and an enhancement submenu to the menu bar menu</li>
+<li>Made onboarding permission steps skippable with help for relaunching when macOS needs it</li>
+<li>Improved accessibility with Reduce Motion support, clearer focus states, and single VoiceOver announcements in Support</li>
+<li>Improved toasts so errors look distinct, timing matches the message, and hovering pauses dismissal</li>
+<li>Improved Audio Transcription storage with one encrypted file per result and progress saved at milestones</li>
+<li>Added a recovery screen when transcript storage cannot open at launch, with retry, reveal, diagnostics, and move-aside options that never replace your data</li>
+<p>### Bug Fixes</p>
+<li>Fixed AI Enhancement pasting cut-off text when the model hit its output limit; Whiskers now pastes your original transcript and tells you</li>
+<li>Fixed a rejected API key permanently turning off AI Enhancement or swapping your model; enhancement now pauses until the key is fixed</li>
+<li>Fixed provider, default prompt, and Gemini combined mode settings being rewritten when Whiskers launched</li>
+<li>Fixed audio being re-sent to a transcription provider after an upload error</li>
+<li>Fixed Audio Transcription results being dropped after a brief Keychain hiccup</li>
+<li>Fixed a lost Restart to Install click and a double install when applying an update</li>
+<li>Fixed a crash finishing an app-audio capture when the app and microphone audio ended at different points</li>
+<li>Fixed ESC reaching the app you are typing in while dictating with a custom hotkey</li>
+<li>Fixed CSV import of vocabulary and snippets saved with Windows line endings</li>
       ]]></description>
-      <pubDate>Sun, 30 Aug 2026 02:16:18 +0000</pubDate>
-      <sparkle:version>1000</sparkle:version>
-      <sparkle:shortVersionString>0.8.65</sparkle:shortVersionString>
+      <pubDate>Tue, 27 Oct 2026 23:55:33 +0000</pubDate>
+      <sparkle:version>1029</sparkle:version>
+      <sparkle:shortVersionString>0.8.66</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.65/Whiskers.zip"
-        length="23392310"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.66/Whiskers.zip"
+        length="23930426"
         type="application/zip"
-        sparkle:edSignature="AewcqpC27OT/9ARtH4XTLyjHlmupmfuaT5C5Uf2TEFuaCkZWjmZeDF/1lj7JNMJUSzZP6dp34ZCjorqKu3qqDg=="
+        sparkle:edSignature="u0en5AJiV+phFOjGXpDiE2Djbp75birAXjdtHzLVLOIeNAFb43Bxtg2odT/+MFf6PcKYPlE0jm6TSo+OT+NFAQ=="
       />
     </item>
   </channel>
