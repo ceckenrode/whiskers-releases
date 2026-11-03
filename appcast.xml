@@ -31,15 +31,15 @@
 <li>Improved screen vocabulary recognition, model selection, and cleanup of retired model caches.</li>
 <li>Improved onboarding, keyboard navigation, and accessibility in Settings and recovery screens.</li>
       ]]></description>
-      <pubDate>Tue, 03 Nov 2026 01:39:43 +0000</pubDate>
-      <sparkle:version>1095</sparkle:version>
+      <pubDate>Tue, 03 Nov 2026 06:49:05 +0000</pubDate>
+      <sparkle:version>1096</sparkle:version>
       <sparkle:shortVersionString>0.8.67</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
         url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.67/Whiskers.zip"
-        length="46865059"
+        length="47220681"
         type="application/zip"
-        sparkle:edSignature="GNq+U1RewVE6Or7JwIXYYHONdhgIJ5v3VaG1rGJpJI6UP/o6Q8YpVnxgSZOzE3JR9Yk1V1Cuu+77fhTZan92Ag=="
+        sparkle:edSignature="YJ82vabTDJsS1TR8PlGZ1NdGMr4AzCzn/5wwRUjo16biRIWffRyZD4ghngMDLbkkwzS7SJVyRxjGSbAENpLjAw=="
       />
     </item>
   </channel>
