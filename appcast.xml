@@ -7,39 +7,33 @@
     <language>en</language>
 
     <item>
-      <title>Whiskers 0.8.67</title>
+      <title>Whiskers 0.8.68</title>
       <description><![CDATA[
-<h3>What's new in 0.8.67</h3>
+<h3>What's new in 0.8.68</h3>
 <p>### Screen Notes</p>
-<li>Record your screen with narration and drawings using the new Screen Notes shortcut, Control-Option-N.</li>
-<li>Turn a session into a numbered contact sheet, key frames, and a text summary you can share with an agent.</li>
-<li>Paste the contact sheet and summary together with your next Command-V. Terminals receive the summary and frame paths as text.</li>
-<li>Find notes in History, copy them again, or open their folders in Finder. Choose a storage folder and retention period in Settings.</li>
-<li>Transcribe narration in one pass across pauses for more natural sentences. Failed transcriptions stay available to retry.</li>
-<li>Screen images stay on your Mac. When you choose a cloud transcription model, only the narration audio goes to that provider.</li>
-<p>### Dictation and models</p>
-<li>See Live Text while you dictate with local and cloud transcription models.</li>
-<li>Added Parakeet Unified English, Nemotron 3.5 ASR, Bark 3 Pro, and Underdog Bark 3 Clean as local model choices.</li>
-<li>New setups default to Parakeet Unified English on English Macs and Parakeet V3 on other Macs.</li>
-<li>Keep the microphone ready for a chosen time after use so the next dictation starts sooner.</li>
-<li>Added Settings > Audio controls for lowering other audio and pausing supported browser media while dictating.</li>
-<li>Treat recordings with no speech as a quiet no-op, with a brief notice instead of an empty History entry.</li>
-<li>Show a timing breakdown for each dictation in History.</li>
-<p>### Reliability and usability</p>
-<li>Improved recording recovery, storage handling, and microphone reconnection behavior.</li>
-<li>Fixed applying AI Enhancement retroactively during hold-to-dictate.</li>
-<li>Improved screen vocabulary recognition, model selection, and cleanup of retired model caches.</li>
-<li>Improved onboarding, keyboard navigation, and accessibility in Settings and recovery screens.</li>
+<li>Draw rectangles, ellipses, straight lines, and arrows. Hold Shift for a square, a circle, or a 45° line, and Option to draw a shape from its center.</li>
+<li>Point at things with the new Laser. It leaves a short fading trail instead of ink, and the note keeps a frame of where you pointed.</li>
+<li>Ink is now plain red, without a dark outline.</li>
+<li>Each frame shows the marks drawn for it. Earlier marks still on screen appear faintly, so frames no longer repeat every mark drawn so far.</li>
+<li>Frames zoom in on what you marked, clicked, or pointed at, so text stays close to its real size. Crop edges avoid cutting through lines of text.</li>
+<li>Clicks in other apps become frames that show what each click did.</li>
+<li>Opened menus and popovers now count as screen changes. Longer notes keep more frames, up to 12.</li>
+<li>The summary describes each mark by shape and position, names the button or item under it, and quotes what you said while drawing it.</li>
+<li>Cropped frames also keep a whole-screen copy in the note folder.</li>
+<li>After a note's files expire or are deleted, its History entry appears as a regular transcript.</li>
+<p>### Reliability</p>
+<li>Updated the OpenAI and Deepgram certificate pins to match their current certificates.</li>
+<li>The focus ring on the selected transcription model card now outlines the card edge.</li>
       ]]></description>
-      <pubDate>Tue, 03 Nov 2026 06:49:05 +0000</pubDate>
-      <sparkle:version>1096</sparkle:version>
-      <sparkle:shortVersionString>0.8.67</sparkle:shortVersionString>
+      <pubDate>Wed, 04 Nov 2026 00:30:23 +0000</pubDate>
+      <sparkle:version>1112</sparkle:version>
+      <sparkle:shortVersionString>0.8.68</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.67/Whiskers.zip"
-        length="47220681"
+        url="https://github.com/ceckenrode/whiskers-releases/releases/download/v0.8.68/Whiskers.zip"
+        length="47499843"
         type="application/zip"
-        sparkle:edSignature="YJ82vabTDJsS1TR8PlGZ1NdGMr4AzCzn/5wwRUjo16biRIWffRyZD4ghngMDLbkkwzS7SJVyRxjGSbAENpLjAw=="
+        sparkle:edSignature="kKpGzxHXsbrvbkaLbmSuorPFH3g9CwAROseyYKHYVlWgACqbLWSrfVpp5Vbp4meHbj4lFJFcKt+f81881JAVBw=="
       />
     </item>
   </channel>
